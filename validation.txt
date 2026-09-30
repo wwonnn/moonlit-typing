@@ -1,0 +1,7 @@
+Unity 6000.0.74f1
+Strokes: 301
+Syllables: 122
+Phrases: 16
+Last note: 75.417s
+Music: 83.667s
+Hangul decomposition, timing boundaries, sequence, sales, Humanoid: PASS
