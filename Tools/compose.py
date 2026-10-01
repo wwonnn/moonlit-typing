@@ -5,7 +5,7 @@ ROOT=Path(__file__).resolve().parents[1]
 OUT=ROOT/'Assets/Resources/Audio';OUT.mkdir(parents=True,exist_ok=True)
 SR=32000; BPM=144; B=60/BPM
 code=(ROOT/'Assets/Scripts/RhythmChart.cs').read_text(encoding='utf8')
-phrases=re.search(r'phrases=\{(.*?)\};',code).group(1)
+phrases=re.search(r'ChallengePhrases=\{(.*?)\};',code).group(1)
 phrases=re.findall(r'"(.*?)"',phrases)
 v=['k','o','i','O','j','p','u','P','h','hk','ho','hl','y','n','nj','np','nl','b','m','ml','l']
 f=['','r','R','rt','s','sw','sg','e','f','fr','fa','fq','ft','fx','fv','fg','a','q','qt','t','T','d','w','c','z','x','v','g']

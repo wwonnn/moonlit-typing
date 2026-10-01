@@ -1,7 +1,4 @@
 Unity 6000.0.74f1
-Strokes: 301
-Syllables: 122
-Phrases: 16
-Last note: 75.417s
-Music: 83.667s
-Hangul decomposition, timing boundaries, sequence, sales, Humanoid: PASS
+달빛 잔치 · 쉬움: 120 BPM, 67 keys, 28 syllables, last 69.000s / song 74.000s
+달빛 인쇄소 · 도전: 144 BPM, 301 keys, 122 syllables, last 75.417s / song 83.667s
+Hangul groups, both songs, easy rests and spacing, judgement windows, sales, Humanoid, impact imports: PASS

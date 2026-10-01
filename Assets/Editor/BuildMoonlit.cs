@@ -35,11 +35,30 @@ public static class BuildMoonlit {
   void Assert(bool ok,string message){if(!ok)throw new Exception(message);}
   Assert(RhythmChart.Keys('아')=="dk","Ah is two physical strokes");Assert(RhythmChart.Keys('값')=="rkqt","Compound final decomposition");Assert(RhythmChart.Keys('왜')=="dho","Compound vowel decomposition");Assert(RhythmChart.Keys('꼬')=="Rh","Shift consonant decomposition");
   Assert(Judgement.Grade(.064f)==2&&Judgement.Grade(.124f)==1&&Judgement.Grade(.184f)==0&&Judgement.Grade(.19f)==-1,"Judgment boundaries");
-  var chart=new RhythmChart();for(int i=1;i<chart.strokes.Count;i++)Assert(chart.strokes[i].time>chart.strokes[i-1].time,"Non-monotonic chart");
-  var music=AssetDatabase.LoadAssetAtPath<AudioClip>("Assets/Resources/Audio/MoonlitPress.wav");Assert(music&&chart.EndTime+1<music.length,"Chart fits song ending");
+  var chart=new RhythmChart();var hard=new RhythmChart(false);
+  string details="";
+  foreach(var mode in new[]{chart,hard}){
+   for(int i=1;i<mode.strokes.Count;i++)Assert(mode.strokes[i].time>mode.strokes[i-1].time,"Non-monotonic chart");
+   var song=AssetDatabase.LoadAssetAtPath<AudioClip>("Assets/Resources/Audio/"+mode.MusicName+".wav");Assert(song&&mode.EndTime+1<song.length,"Chart fits song ending: "+mode.Title);
+   foreach(var sy in mode.syllables)Assert(mode.strokes[sy.lastStroke].last&&sy.lastStroke-sy.firstStroke+1==RhythmChart.Keys(sy.glyph[0]).Length,"Physical key group matches syllable");
+   details+=$"{mode.Title}: {mode.BPM} BPM, {mode.strokes.Count} keys, {mode.syllables.Count} syllables, last {mode.EndTime:F3}s / song {song.length:F3}s\n";
+  }
+  var gaps=chart.strokes.Skip(1).Select((n,i)=>n.time-chart.strokes[i].time).ToArray();
+  Assert(chart.strokes.Count<hard.strokes.Count*.3f,"Easy has substantially fewer notes");
+  Assert(gaps.Min()>=.499f&&gaps.Count(g=>g>=.99f)>=20,"Easy has real rests, not only slower BPM");
+  Assert(chart.Window*2<gaps.Min(),"Judgement windows do not overlap");
+  Assert(chart.Grade(.099f)==2&&chart.Grade(.179f)==1&&chart.Grade(.239f)==0&&chart.Grade(.241f)==-1,"Easy judgement boundaries");
+  Assert(hard.strokes.Count==301&&Mathf.Abs(hard.EndTime-75.4167f)<.01f,"Original challenge chart preserved");
+  foreach(var path in Directory.GetFiles("Assets/Resources/Audio/Impacts","*.ogg")){var clip=AssetDatabase.LoadAssetAtPath<AudioClip>(path);Assert(clip&&clip.length<2,"Impact sound short and imported: "+path);}
   for(int i=1;i<=100;i++)Assert(Judgement.Sales(i,100)>=Judgement.Sales(i-1,100),"Monotonic sales");
   var avatar=AssetDatabase.LoadAssetAtPath<GameObject>("Assets/Resources/Scholar.prefab").GetComponent<Animator>().avatar;Assert(avatar.isHuman&&avatar.isValid,"Humanoid");
-  string report=$"Unity {Application.unityVersion}\nStrokes: {chart.strokes.Count}\nSyllables: {chart.syllables.Count}\nPhrases: {chart.phrases.Length}\nLast note: {chart.EndTime:F3}s\nMusic: {music.length:F3}s\nHangul decomposition, timing boundaries, sequence, sales, Humanoid: PASS\n";File.WriteAllText("validation.txt",report);Debug.Log(report);
+  string report=$"Unity {Application.unityVersion}\n"+details+"Hangul groups, both songs, easy rests and spacing, judgement windows, sales, Humanoid, impact imports: PASS\n";File.WriteAllText("validation.txt",report);Debug.Log(report);
+ }
+ public static void PrepareUpdate(){
+  AssetDatabase.Refresh();
+  foreach(var path in Directory.GetFiles("Assets/Resources/Art/Splat","*.png")){var ti=(TextureImporter)AssetImporter.GetAtPath(path);ti.maxTextureSize=256;ti.alphaIsTransparency=true;ti.npotScale=TextureImporterNPOTScale.None;ti.textureCompression=TextureImporterCompression.Uncompressed;ti.SaveAndReimport();}
+  foreach(var path in Directory.GetFiles("Assets/Resources/Audio","*",SearchOption.AllDirectories).Where(p=>p.EndsWith(".wav")||p.EndsWith(".ogg"))){var ai=(AudioImporter)AssetImporter.GetAtPath(path);var sample=ai.defaultSampleSettings;sample.loadType=AudioClipLoadType.DecompressOnLoad;sample.compressionFormat=AudioCompressionFormat.Vorbis;sample.quality=path.Contains("Moonlit")?.75f:.95f;sample.preloadAudioData=true;ai.defaultSampleSettings=sample;ai.SaveAndReimport();}
+  PlayerSettings.bundleVersion="0.2.0";AssetDatabase.SaveAssets();BuildWeb();
  }
  public static void BuildWeb(){Validate();Directory.CreateDirectory("docs");var report=BuildPipeline.BuildPlayer(new BuildPlayerOptions{scenes=new[]{"Assets/Scenes/MoonlitStudy.unity"},locationPathName="docs",target=BuildTarget.WebGL,options=BuildOptions.None});File.WriteAllText("build-report.txt",report.summary.result+"\n"+report.summary.totalSize+" bytes\n"+report.summary.totalTime);if(report.summary.result!=BuildResult.Succeeded)throw new Exception("Web build failed");File.WriteAllText("docs/.nojekyll","");Debug.Log("MOONLIT_WEB_OK");}
  public static void BuildDesktop(){var r=BuildPipeline.BuildPlayer(new BuildPlayerOptions{scenes=new[]{"Assets/Scenes/MoonlitStudy.unity"},locationPathName="Builds/Windows/Moonlit.exe",target=BuildTarget.StandaloneWindows64,options=BuildOptions.Development});if(r.summary.result!=BuildResult.Succeeded)throw new Exception("Desktop build failed");}

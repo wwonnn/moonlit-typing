@@ -18,14 +18,18 @@
 
 ## 이번 플레이 빌드
 
-- 별주부전을 재구성한 16개 문구, 오리지널 144 BPM 곡 **달빛 인쇄소**.
+- 기본 **쉬움: 달빛 잔치** — 새 오리지널 곡, 120 BPM, 74초, 28글자·67키. 한 글자를 4박 묶음으로 배치하고 글자·문구 사이에 쉼을 둡니다. 키 간격은 최소 0.5초입니다.
+- **도전: 달빛 인쇄소** — 기존 144 BPM, 약 84초, 122글자·301키 채보를 유지합니다. 곡 선택 화면에서 전환하고 최고 기록을 따로 저장합니다.
 - 실제 승인 Meshy 학자 메시와 텍스처, 수정된 Mixamo 애니메이션.
 - 저채도 달밤 배경, 따뜻한 등불과 푸른 달빛, 카툰 명암 셰이더.
-- 자모 키별 타이밍 판정, 연타, 입력음, 글자 비행, 종이 착지음과 입자 효과.
+- 자모 키별 판정과 글자 단위 노트 묶음 표시. 쉬움 판정은 ±100/180/240ms, 도전은 기존 ±65/125/185ms입니다.
+- Kenney Splat Pack 먹물 튐, 입력 글자 눌림·튀어오름, 가속하며 휘어지는 글자 비행. 착지 좌표·글꼴·크기는 본문과 일치합니다.
+- 입력음은 Kenney Impact Sounds의 나무 타격 녹음, 착지는 중간 펀치, 문구 완성은 무거운 펀치 소리로 교체했습니다. 기존 합성 삑 소리는 플레이 중 사용하지 않습니다.
+- 키 입력에 의한 카메라·모델·책상 흔들림 제거. 20콤보 단위로 다음 여유 구간에 SittingVictory 모션을 짧게 재생합니다.
 - 브라우저 물리 키 이벤트 시각 보정, 반복 키다운 무시, 포커스 손실 시 자동 일시정지.
 - 점수에 따른 판매 결과, 최고 기록 저장, 자동 연주 모드.
 
-현재는 한 곡을 끝까지 플레이할 수 있는 첫 구현입니다. 다수의 책, 상점 경제, 장기 성장 시스템, 얼굴 표정 블렌드셰이프는 포함하지 않습니다.
+현재는 쉬움·도전 두 곡을 끝까지 플레이할 수 있는 프로토타입입니다. 다수의 책, 상점 경제, 장기 성장 시스템, 얼굴 표정 블렌드셰이프는 포함하지 않습니다.
 
 ## Unity
 
@@ -41,9 +45,13 @@ Unity **6000.0.74f1**, Built-in Render Pipeline, uGUI. `Assets/Scenes/MoonlitStu
 
 `SourceDirectory`에는 `Models/Scholar-Writing.fbx` 등 7개 FBX와 `Textures/BaseColor.png`, `Textures/Normal.png`가 있어야 합니다. 공개 저장소에서 재생 가능한 결과물은 `docs/`의 WebGL 빌드입니다. GitHub Pages는 `main` 브랜치 `/docs`를 사용합니다.
 
-## 직접 만든 사운드
+## 음악과 타격음
 
-`Tools/compose.py`는 외부 음원 샘플 없이 신스·타악기·발현음 합성으로 원곡과 짧은 게임 효과음을 만듭니다. Python + NumPy가 필요합니다. `music-report.json`에 BPM, 길이, 샘플레이트, 피크와 RMS를 기록합니다.
+`Tools/compose_easy.py`는 새 120 BPM 곡 **달빛 잔치**, `Tools/compose.py`는 기존 144 BPM 곡을 합성합니다. 외부 음악 샘플을 쓰지 않으며 Python + NumPy가 필요합니다. 곡 정보는 `easy-music-report.json`과 `music-report.json`에 기록합니다. 게임 타격음은 `Audio/Impacts`에 있는 Kenney 녹음을 사용합니다.
+
+## Cartoon FX 연결 상태
+
+Cartoon FX Remaster Free 원본은 계정의 내 에셋에 추가되었으며 Unity 에디터의 다운로드·임포트가 남아 있습니다. 현재 웹 빌드에는 Kenney 이펙트가 적용되어 있고 Cartoon FX 원본은 포함되지 않았습니다. 원본을 Unity에서 임포트한 뒤 `Moonlit > Prepare imported Cartoon FX`를 실행하면 실제 Hit/Impact 프리팹을 `Resources/MoonlitFX`에 연결합니다. 연결 과정에서 에셋의 카메라 흔들림·광원 제어 스크립트를 제거하고 전용 UI 합성 카메라로 표시합니다. 원본 임포트 후에는 셰이더와 WebGL 렌더링 검증이 추가로 필요합니다.
 
 ## 검증
 
@@ -55,6 +63,8 @@ Unity **6000.0.74f1**, Built-in Render Pipeline, uGUI. `Assets/Scenes/MoonlitStu
 - 모션: Adobe Mixamo, 승인 모델로 내려받고 A/T pose 차이를 수정한 7개 모션.
 - 배경·책 UI: 이 프로젝트를 위해 이미지 생성으로 제작. 확정 모델을 다시 생성하지 않았습니다.
 - 글꼴: [Google Fonts 나눔고딕](https://github.com/google/fonts/tree/main/ofl/nanumgothic), [나눔명조](https://github.com/google/fonts/tree/main/ofl/nanummyeongjo), SIL OFL. 라이선스 파일은 `Assets/Resources/Fonts`에 포함합니다.
-- 음악·효과음: 본 프로젝트의 자체 합성 오리지널.
+- 음악: 본 프로젝트의 자체 합성 오리지널 2곡.
+- 먹물 튐: [Kenney Splat Pack](https://kenney.nl/assets/splat-pack), CC0.
+- 입력·착지 타격음: [Kenney Impact Sounds](https://kenney.nl/assets/impact-sounds), CC0. 라이선스는 `Assets/ThirdParty/Kenney`에 포함합니다.
 
 고정 배경 그림과 실제 3D 캐릭터·책상을 결합한 2.5D 무대입니다. 콘셉트 이미지를 그대로 게임 실행 화면으로 표시하는 방식은 아닙니다.
