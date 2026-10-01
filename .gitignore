@@ -20,3 +20,9 @@
 /Assets/Scholar/*.controller*
 /Assets/Scholar/*.prefab*
 /.local/
+
+# Licensed Cartoon FX is distributed only inside the playable build.
+/Assets/JMO Assets/
+/Assets/JMO Assets.meta
+/Assets/Resources/MoonlitFX/
+/Assets/Resources/MoonlitFX.meta

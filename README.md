@@ -49,9 +49,13 @@ Unity **6000.0.74f1**, Built-in Render Pipeline, uGUI. `Assets/Scenes/MoonlitStu
 
 `Tools/compose_easy.py`는 새 120 BPM 곡 **달빛 잔치**, `Tools/compose.py`는 기존 144 BPM 곡을 합성합니다. 외부 음악 샘플을 쓰지 않으며 Python + NumPy가 필요합니다. 곡 정보는 `easy-music-report.json`과 `music-report.json`에 기록합니다. 게임 타격음은 `Audio/Impacts`에 있는 Kenney 녹음을 사용합니다.
 
-## Cartoon FX 연결 상태
+## Cartoon FX
 
-Cartoon FX Remaster Free 원본은 계정의 내 에셋에 추가되었으며 Unity 에디터의 다운로드·임포트가 남아 있습니다. 현재 웹 빌드에는 Kenney 이펙트가 적용되어 있고 Cartoon FX 원본은 포함되지 않았습니다. 원본을 Unity에서 임포트한 뒤 `Moonlit > Prepare imported Cartoon FX`를 실행하면 실제 Hit/Impact 프리팹을 `Resources/MoonlitFX`에 연결합니다. 연결 과정에서 에셋의 카메라 흔들림·광원 제어 스크립트를 제거하고 전용 UI 합성 카메라로 표시합니다. 원본 임포트 후에는 셰이더와 WebGL 렌더링 검증이 추가로 필요합니다.
+Cartoon FX Remaster Free 공식 패키지를 Unity 에디터의 My Assets에서 다운로드해 로컬 프로젝트에 임포트했습니다. `CFXR Hit A (Red)`, `CFXR Impact Glowing HDR (Blue)`, `CFXR Magic Poof`를 글자 착지와 콤보 연출에서 번갈아 사용합니다. 실제 파티클·재질·셰이더를 유지하고, 카메라 흔들림·파티클의 자동 삭제·광원 제어 스크립트는 게임 전용 프리팹에서 제거했습니다. 전용 투명 렌더 텍스처를 UI 위에 합성하며, 파티클 12개와 Kenney 스플랫 24개를 재사용합니다. ESC 일시정지는 두 효과도 함께 멈춥니다.
+
+![실제 Cartoon FX 글자 착지](Documentation/cartoon-impact.png)
+
+원본 패키지와 이를 복제한 프리팹은 공개 소스에서 제외합니다. 다른 컴퓨터에서는 [Cartoon FX Remaster Free](https://assetstore.unity.com/packages/vfx/particles/cartoon-fx-remaster-free-109565)를 본인 계정으로 가져온 후 `Moonlit > Prepare imported Cartoon FX`를 실행하세요. 배치 임포트는 Unity의 [`-importPackage`](https://docs.unity3d.com/6000.0/Documentation/Manual/EditorCommandLineArguments.html) 옵션을 사용합니다.
 
 ## 검증
 
@@ -64,6 +68,7 @@ Cartoon FX Remaster Free 원본은 계정의 내 에셋에 추가되었으며 Un
 - 배경·책 UI: 이 프로젝트를 위해 이미지 생성으로 제작. 확정 모델을 다시 생성하지 않았습니다.
 - 글꼴: [Google Fonts 나눔고딕](https://github.com/google/fonts/tree/main/ofl/nanumgothic), [나눔명조](https://github.com/google/fonts/tree/main/ofl/nanummyeongjo), SIL OFL. 라이선스 파일은 `Assets/Resources/Fonts`에 포함합니다.
 - 음악: 본 프로젝트의 자체 합성 오리지널 2곡.
+- Cartoon FX: Jean Moreno의 공식 무료 패키지. 원본 파일은 로컬 프로젝트에 보관하며 웹 빌드에서 게임 일부로 재생합니다.
 - 먹물 튐: [Kenney Splat Pack](https://kenney.nl/assets/splat-pack), CC0.
 - 입력·착지 타격음: [Kenney Impact Sounds](https://kenney.nl/assets/impact-sounds), CC0. 라이선스는 `Assets/ThirdParty/Kenney`에 포함합니다.
 

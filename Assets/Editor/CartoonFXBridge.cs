@@ -7,12 +7,10 @@ public static class CartoonFXBridge {
  // Run after importing the publisher's original free unitypackage through Package Manager.
  [MenuItem("Moonlit/Prepare imported Cartoon FX")]
  public static void Prepare(){
-  var candidates=AssetDatabase.FindAssets("t:Prefab").Select(AssetDatabase.GUIDToAssetPath)
-   .Where(p=>!p.StartsWith("Assets/Resources/")&&(p.Contains("CFXR")||p.Contains("Cartoon FX")))
-   .Where(p=>p.IndexOf("Hit",StringComparison.OrdinalIgnoreCase)>=0||p.IndexOf("Impact",StringComparison.OrdinalIgnoreCase)>=0||p.IndexOf("Magic Poof",StringComparison.OrdinalIgnoreCase)>=0)
-   .Where(p=>p.IndexOf("Blood",StringComparison.OrdinalIgnoreCase)<0&&p.IndexOf("Text",StringComparison.OrdinalIgnoreCase)<0)
-   .OrderBy(p=>p.IndexOf("Hit",StringComparison.OrdinalIgnoreCase)>=0?0:1).ThenBy(p=>p).Take(3).ToArray();
-  if(candidates.Length==0)throw new Exception("Import the official Cartoon FX Remaster Free package first.");
+  string[] names={"CFXR Hit A (Red)","CFXR Impact Glowing HDR (Blue)","CFXR Magic Poof"};
+  var paths=AssetDatabase.FindAssets("t:Prefab").Select(AssetDatabase.GUIDToAssetPath).ToArray();
+  var candidates=names.Select(n=>paths.FirstOrDefault(p=>p.StartsWith("Assets/JMO Assets/")&&Path.GetFileNameWithoutExtension(p)==n)).ToArray();
+  if(candidates.Any(string.IsNullOrEmpty))throw new Exception("Import the official Cartoon FX Remaster Free package first.");
   Directory.CreateDirectory("Assets/Resources/MoonlitFX");
   foreach(var path in candidates){var source=AssetDatabase.LoadAssetAtPath<GameObject>(path);var clone=UnityEngine.Object.Instantiate(source);clone.name=source.name;
    foreach(var behavior in clone.GetComponentsInChildren<MonoBehaviour>(true))UnityEngine.Object.DestroyImmediate(behavior);

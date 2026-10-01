@@ -9,7 +9,7 @@ namespace Moonlit {
   class Effect { public GameObject root;public ParticleSystem[] systems;public float life;public Vector3 scale; }
   readonly List<Mark> marks=new List<Mark>();readonly List<Effect> effects=new List<Effect>();
   readonly List<Sprite> splats=new List<Sprite>();
-  RenderTexture texture;Camera fxCamera;bool paused;int sequence;
+  RenderTexture texture;Camera fxCamera;bool paused;int sequence,effectSequence;
   public bool CartoonReady=>effects.Count>0;
   public void Build(MoonlitUI ui) {
    foreach(var tex in Resources.LoadAll<Texture2D>("Art/Splat"))splats.Add(Sprite.Create(tex,new Rect(0,0,tex.width,tex.height),Vector2.one*.5f,100));
@@ -39,7 +39,7 @@ namespace Moonlit {
    if(!reduced)Particle(point,large?1.05f:.65f);
   }
   public void Particle(Vector2 point,float scale) {
-   foreach(var fx in effects){if(fx.life>0)continue;fx.root.transform.position=new Vector3((point.x-800)/100,(450-point.y)/100,0);fx.root.transform.localScale=fx.scale*scale;fx.root.SetActive(true);fx.life=1.25f;foreach(var ps in fx.systems){ps.Clear(false);ps.Play(false);}break;}
+   for(int i=0;i<effects.Count;i++){int index=(effectSequence+i)%effects.Count;var fx=effects[index];if(fx.life>0)continue;effectSequence=(index+1)%effects.Count;fx.root.transform.position=new Vector3((point.x-800)/100,(450-point.y)/100,0);fx.root.transform.localScale=fx.scale*scale;fx.root.SetActive(true);fx.life=1.25f;foreach(var ps in fx.systems){ps.Clear(false);ps.Play(false);if(paused)ps.Pause(false);}break;}
   }
   public void Tick(float dt) {
    foreach(var m in marks){if(m.life<=0)continue;m.age+=dt;float u=Mathf.Clamp01(m.age/m.life);m.image.rectTransform.sizeDelta=Vector2.one*m.size*Mathf.Lerp(.12f,1.2f,1-Mathf.Pow(1-u,4));var c=m.color;c.a*=Mathf.Pow(1-u,1.5f);m.image.color=c;if(u>=1){m.life=0;m.image.gameObject.SetActive(false);}}

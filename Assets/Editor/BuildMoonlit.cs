@@ -52,6 +52,9 @@ public static class BuildMoonlit {
   foreach(var path in Directory.GetFiles("Assets/Resources/Audio/Impacts","*.ogg")){var clip=AssetDatabase.LoadAssetAtPath<AudioClip>(path);Assert(clip&&clip.length<2,"Impact sound short and imported: "+path);}
   for(int i=1;i<=100;i++)Assert(Judgement.Sales(i,100)>=Judgement.Sales(i-1,100),"Monotonic sales");
   var avatar=AssetDatabase.LoadAssetAtPath<GameObject>("Assets/Resources/Scholar.prefab").GetComponent<Animator>().avatar;Assert(avatar.isHuman&&avatar.isValid,"Humanoid");
+  var fxPrefabs=Resources.LoadAll<GameObject>("MoonlitFX");Assert(fxPrefabs.Length==3,"Import official Cartoon FX, then run CartoonFXBridge.Prepare");
+  foreach(var prefab in fxPrefabs){Assert(prefab.GetComponentsInChildren<MonoBehaviour>(true).Length==0,"No shake/destroy scripts in pooled FX");Assert(prefab.GetComponentsInChildren<Light>(true).Length==0,"No effect light changes to scholar stage");var systems=prefab.GetComponentsInChildren<ParticleSystem>(true);Assert(systems.Length>0,"Actual particle systems present");foreach(var ps in systems){Assert(!ps.main.loop,"FX must be one-shot");var renderer=ps.GetComponent<ParticleSystemRenderer>();if(renderer.enabled&&renderer.renderMode!=ParticleSystemRenderMode.None)Assert(renderer.sharedMaterial&&renderer.sharedMaterial.shader,"Particle material resolved: "+prefab.name+"/"+ps.name);if(ps.trails.enabled)Assert(renderer.trailMaterial&&renderer.trailMaterial.shader,"Particle trail material resolved: "+ps.name);}}
+  details+="Cartoon FX: 3 official particle prefabs; materials resolved; no stage shake/light scripts: PASS\n";
   string report=$"Unity {Application.unityVersion}\n"+details+"Hangul groups, both songs, easy rests and spacing, judgement windows, sales, Humanoid, impact imports: PASS\n";File.WriteAllText("validation.txt",report);Debug.Log(report);
  }
  public static void PrepareUpdate(){
