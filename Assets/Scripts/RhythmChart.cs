@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 
 namespace Moonlit {
- [Serializable] public class Stroke { public string key; public string jamo; public float time; public int syllable; public int phrase; public bool last; }
+ [Serializable] public class Stroke { public string key; public string jamo; public float time; public int syllable; public int phrase; public bool last; public string eventKind, section; public float strength; }
  [Serializable] public class Syllable { public string glyph; public int phrase; public bool space; public int firstStroke; public int lastStroke; }
  public class RhythmChart {
   public readonly bool easy;
-  public float BPM=>easy?120f:144f;
+  public readonly SongTimeline timeline;
+  public float BPM=>timeline.bpm;
   public float Beat=>60f/BPM;
   public float Window=>easy?.24f:Judgement.Window;
   public string MusicName=>easy?"MoonlitFestival":"MoonlitPress";
@@ -24,42 +25,23 @@ namespace Moonlit {
   const string physical="rsefaqtdwczxvgkoiOjpuPhynbml";
   public static string Jamo(char k){string keys="rRseEf aqQtTd wWczxvgkoiOjpuPhynbml".Replace(" ","");string[] names={"ㄱ","ㄲ","ㄴ","ㄷ","ㄸ","ㄹ","ㅁ","ㅂ","ㅃ","ㅅ","ㅆ","ㅇ","ㅈ","ㅉ","ㅊ","ㅋ","ㅌ","ㅍ","ㅎ","ㅏ","ㅐ","ㅑ","ㅒ","ㅓ","ㅔ","ㅕ","ㅖ","ㅗ","ㅛ","ㅜ","ㅠ","ㅡ","ㅣ"};int n=keys.IndexOf(k);return n>=0?names[n]:k.ToString();}
   public static string Keys(char c){int n=c-0xAC00;if(n<0||n>=11172)return "";return initial[n/588]+vowel[(n%588)/28]+final[n%28];}
-  public RhythmChart(bool easy=true){
-   this.easy=easy;phrases=easy?EasyPhrases:ChallengePhrases;
-   // Two-beat count-in, then phrase blocks with breathing room. Each physical key owns a note.
-   int note=0;
+  public RhythmChart(bool easy=true,SongTimeline song=null){
+   this.easy=easy;timeline=song??SongTimeline.Load(MusicName);SongTimeline.Validate(timeline);
+   phrases=easy?EasyPhrases:ChallengePhrases;
    for(int p=0;p<phrases.Length;p++){
-    float phraseStart=4*Beat+p*11*Beat;
-    var chars=phrases[p].ToCharArray();int count=0;foreach(char c in chars)count+=Keys(c).Length;
-    float step=Beat*.5f;
-    // Long phrases use eighth notes; short ones leave a longer musical response.
+    var chars=phrases[p].ToCharArray();
     for(int c=0;c<chars.Length;c++){
      string ks=Keys(chars[c]);if(ks.Length==0)continue;
      int index=syllables.Count;var sy=new Syllable{glyph=chars[c].ToString(),phrase=p,space=c>0&&chars[c-1]==' ',firstStroke=strokes.Count};syllables.Add(sy);
-     foreach(char k in ks){strokes.Add(new Stroke{key=k.ToString(),jamo=Jamo(k),time=phraseStart+note*step,syllable=index,phrase=p});note++;}
+     foreach(char k in ks)strokes.Add(new Stroke{key=k.ToString(),jamo=Jamo(k),syllable=index,phrase=p});
      sy.lastStroke=strokes.Count-1;strokes[sy.lastStroke].last=true;
     }
-    // Keep adjacent phrases from overlapping: advance next phrase's grid if necessary.
-    note=0;
    }
-   // Schedule phrases on a musical grid, never overlap if a phrase exceeds 11 beats.
-   float next=4*Beat;
-   for(int p=0;p<phrases.Length;p++){
-    float start=next;int n=0;foreach(var s in strokes)if(s.phrase==p){s.time=start+n*Beat*.5f;n++;}
-    next=start+Mathf.Max(11,Mathf.Ceil(n*.5f)+1)*Beat;
-   }
-   if(easy){
-    // A syllable is one four-beat phrase of physical key notes, followed by a rest.
-    // Simple syllables: tap, tap, rest, rest. Three keys: tap, tap, tap, rest.
-    float grid=4;int previousPhrase=-1;
-    foreach(var sy in syllables){
-     if(previousPhrase>=0&&sy.phrase!=previousPhrase)grid=Mathf.Ceil(grid/4)*4+4;
-     int count=sy.lastStroke-sy.firstStroke+1;
-     for(int k=0;k<count;k++)strokes[sy.firstStroke+k].time=(grid+k)*Beat;
-     grid+=Mathf.Max(4,count+1);previousPhrase=sy.phrase;
-    }
-   }
+   SongChartGenerator.Schedule(strokes,timeline,easy);
   }
+  // Adjacent timing windows meet at their midpoint, including uneven rhythms.
+  public float EarlyWindow(int index)=>index==0?Window:Mathf.Min(Window,(strokes[index].time-strokes[index-1].time)*.49f);
+  public float LateWindow(int index)=>index+1==strokes.Count?Window:Mathf.Min(Window,(strokes[index+1].time-strokes[index].time)*.49f);
   public float EndTime=>strokes.Count==0?0:strokes[strokes.Count-1].time;
  }
  public static class Judgement {

@@ -1,0 +1,8741 @@
+{
+  "schemaVersion": 1,
+  "song": "MoonlitFestival",
+  "bpm": 120,
+  "duration": 74.0,
+  "sampleRate": 32000,
+  "audioSha256": "4bfab71ec6e2657d7537a03d6952ccf60eb3718ec99bd06e254840065e667cb3",
+  "source": "composer-instrument-events",
+  "events": [
+    {
+      "time": 0.0,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "intro"
+    },
+    {
+      "time": 0.0,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "intro"
+    },
+    {
+      "time": 0.0,
+      "kind": "melody",
+      "strength": 1,
+      "section": "intro"
+    },
+    {
+      "time": 0.0,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "intro"
+    },
+    {
+      "time": 0.0,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "intro"
+    },
+    {
+      "time": 0.0,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "intro"
+    },
+    {
+      "time": 0.25,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "intro"
+    },
+    {
+      "time": 0.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "intro"
+    },
+    {
+      "time": 0.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "intro"
+    },
+    {
+      "time": 0.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "intro"
+    },
+    {
+      "time": 0.375,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "intro"
+    },
+    {
+      "time": 0.5,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "intro"
+    },
+    {
+      "time": 0.5,
+      "kind": "snare",
+      "strength": 0.95,
+      "section": "intro"
+    },
+    {
+      "time": 0.5,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "intro"
+    },
+    {
+      "time": 0.75,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "intro"
+    },
+    {
+      "time": 0.75,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "intro"
+    },
+    {
+      "time": 0.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "intro"
+    },
+    {
+      "time": 0.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "intro"
+    },
+    {
+      "time": 0.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "intro"
+    },
+    {
+      "time": 1.0,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "intro"
+    },
+    {
+      "time": 1.0,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "intro"
+    },
+    {
+      "time": 1.125,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "intro"
+    },
+    {
+      "time": 1.25,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "intro"
+    },
+    {
+      "time": 1.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "intro"
+    },
+    {
+      "time": 1.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "intro"
+    },
+    {
+      "time": 1.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "intro"
+    },
+    {
+      "time": 1.375,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "intro"
+    },
+    {
+      "time": 1.5,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "intro"
+    },
+    {
+      "time": 1.5,
+      "kind": "snare",
+      "strength": 0.95,
+      "section": "intro"
+    },
+    {
+      "time": 1.5,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "intro"
+    },
+    {
+      "time": 1.75,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "intro"
+    },
+    {
+      "time": 1.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "intro"
+    },
+    {
+      "time": 1.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "intro"
+    },
+    {
+      "time": 1.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "intro"
+    },
+    {
+      "time": 1.75,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "intro"
+    },
+    {
+      "time": 2.0,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "intro"
+    },
+    {
+      "time": 2.0,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "intro"
+    },
+    {
+      "time": 2.0,
+      "kind": "melody",
+      "strength": 1,
+      "section": "intro"
+    },
+    {
+      "time": 2.25,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "intro"
+    },
+    {
+      "time": 2.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "intro"
+    },
+    {
+      "time": 2.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "intro"
+    },
+    {
+      "time": 2.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "intro"
+    },
+    {
+      "time": 2.375,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "intro"
+    },
+    {
+      "time": 2.5,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "intro"
+    },
+    {
+      "time": 2.5,
+      "kind": "snare",
+      "strength": 0.95,
+      "section": "intro"
+    },
+    {
+      "time": 2.5,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "intro"
+    },
+    {
+      "time": 2.75,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "intro"
+    },
+    {
+      "time": 2.75,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "intro"
+    },
+    {
+      "time": 2.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "intro"
+    },
+    {
+      "time": 2.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "intro"
+    },
+    {
+      "time": 2.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "intro"
+    },
+    {
+      "time": 3.0,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "intro"
+    },
+    {
+      "time": 3.0,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "intro"
+    },
+    {
+      "time": 3.125,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "intro"
+    },
+    {
+      "time": 3.25,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "intro"
+    },
+    {
+      "time": 3.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "intro"
+    },
+    {
+      "time": 3.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "intro"
+    },
+    {
+      "time": 3.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "intro"
+    },
+    {
+      "time": 3.375,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "intro"
+    },
+    {
+      "time": 3.5,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "intro"
+    },
+    {
+      "time": 3.5,
+      "kind": "snare",
+      "strength": 0.95,
+      "section": "intro"
+    },
+    {
+      "time": 3.5,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "intro"
+    },
+    {
+      "time": 3.75,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "intro"
+    },
+    {
+      "time": 3.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "intro"
+    },
+    {
+      "time": 3.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "intro"
+    },
+    {
+      "time": 3.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "intro"
+    },
+    {
+      "time": 3.75,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "intro"
+    },
+    {
+      "time": 4.0,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "verse"
+    },
+    {
+      "time": 4.0,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "verse"
+    },
+    {
+      "time": 4.0,
+      "kind": "melody",
+      "strength": 1,
+      "section": "verse"
+    },
+    {
+      "time": 4.25,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "verse"
+    },
+    {
+      "time": 4.25,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "verse"
+    },
+    {
+      "time": 4.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 4.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 4.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 4.375,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "verse"
+    },
+    {
+      "time": 4.375,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "verse"
+    },
+    {
+      "time": 4.5,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "verse"
+    },
+    {
+      "time": 4.5,
+      "kind": "snare",
+      "strength": 0.95,
+      "section": "verse"
+    },
+    {
+      "time": 4.5,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "verse"
+    },
+    {
+      "time": 4.75,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "verse"
+    },
+    {
+      "time": 4.75,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "verse"
+    },
+    {
+      "time": 4.75,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "verse"
+    },
+    {
+      "time": 4.75,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "verse"
+    },
+    {
+      "time": 4.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 4.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 4.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 5.0,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "verse"
+    },
+    {
+      "time": 5.0,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "verse"
+    },
+    {
+      "time": 5.0,
+      "kind": "melody",
+      "strength": 1,
+      "section": "verse"
+    },
+    {
+      "time": 5.125,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "verse"
+    },
+    {
+      "time": 5.25,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "verse"
+    },
+    {
+      "time": 5.25,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "verse"
+    },
+    {
+      "time": 5.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 5.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 5.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 5.375,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "verse"
+    },
+    {
+      "time": 5.375,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "verse"
+    },
+    {
+      "time": 5.5,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "verse"
+    },
+    {
+      "time": 5.5,
+      "kind": "snare",
+      "strength": 0.95,
+      "section": "verse"
+    },
+    {
+      "time": 5.5,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "verse"
+    },
+    {
+      "time": 5.75,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "verse"
+    },
+    {
+      "time": 5.75,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "verse"
+    },
+    {
+      "time": 5.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 5.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 5.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 5.75,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "verse"
+    },
+    {
+      "time": 5.75,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "verse"
+    },
+    {
+      "time": 6.0,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "verse"
+    },
+    {
+      "time": 6.0,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "verse"
+    },
+    {
+      "time": 6.0,
+      "kind": "melody",
+      "strength": 1,
+      "section": "verse"
+    },
+    {
+      "time": 6.125,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "verse"
+    },
+    {
+      "time": 6.25,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "verse"
+    },
+    {
+      "time": 6.25,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "verse"
+    },
+    {
+      "time": 6.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 6.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 6.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 6.375,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "verse"
+    },
+    {
+      "time": 6.375,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "verse"
+    },
+    {
+      "time": 6.5,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "verse"
+    },
+    {
+      "time": 6.5,
+      "kind": "snare",
+      "strength": 0.95,
+      "section": "verse"
+    },
+    {
+      "time": 6.5,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "verse"
+    },
+    {
+      "time": 6.75,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "verse"
+    },
+    {
+      "time": 6.75,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "verse"
+    },
+    {
+      "time": 6.75,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "verse"
+    },
+    {
+      "time": 6.75,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "verse"
+    },
+    {
+      "time": 6.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 6.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 6.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 7.0,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "verse"
+    },
+    {
+      "time": 7.0,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "verse"
+    },
+    {
+      "time": 7.0,
+      "kind": "melody",
+      "strength": 1,
+      "section": "verse"
+    },
+    {
+      "time": 7.125,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "verse"
+    },
+    {
+      "time": 7.25,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "verse"
+    },
+    {
+      "time": 7.25,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "verse"
+    },
+    {
+      "time": 7.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 7.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 7.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 7.375,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "verse"
+    },
+    {
+      "time": 7.375,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "verse"
+    },
+    {
+      "time": 7.5,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "verse"
+    },
+    {
+      "time": 7.5,
+      "kind": "snare",
+      "strength": 0.95,
+      "section": "verse"
+    },
+    {
+      "time": 7.5,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "verse"
+    },
+    {
+      "time": 7.5,
+      "kind": "tom",
+      "strength": 0.78,
+      "section": "verse"
+    },
+    {
+      "time": 7.625,
+      "kind": "tom",
+      "strength": 0.78,
+      "section": "verse"
+    },
+    {
+      "time": 7.75,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "verse"
+    },
+    {
+      "time": 7.75,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "verse"
+    },
+    {
+      "time": 7.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 7.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 7.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 7.75,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "verse"
+    },
+    {
+      "time": 7.75,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "verse"
+    },
+    {
+      "time": 7.75,
+      "kind": "tom",
+      "strength": 0.78,
+      "section": "verse"
+    },
+    {
+      "time": 7.875,
+      "kind": "tom",
+      "strength": 0.78,
+      "section": "verse"
+    },
+    {
+      "time": 8.0,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "verse"
+    },
+    {
+      "time": 8.0,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "verse"
+    },
+    {
+      "time": 8.0,
+      "kind": "melody",
+      "strength": 1,
+      "section": "verse"
+    },
+    {
+      "time": 8.125,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "verse"
+    },
+    {
+      "time": 8.25,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "verse"
+    },
+    {
+      "time": 8.25,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "verse"
+    },
+    {
+      "time": 8.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 8.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 8.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 8.375,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "verse"
+    },
+    {
+      "time": 8.375,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "verse"
+    },
+    {
+      "time": 8.5,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "verse"
+    },
+    {
+      "time": 8.5,
+      "kind": "snare",
+      "strength": 0.95,
+      "section": "verse"
+    },
+    {
+      "time": 8.5,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "verse"
+    },
+    {
+      "time": 8.75,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "verse"
+    },
+    {
+      "time": 8.75,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "verse"
+    },
+    {
+      "time": 8.75,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "verse"
+    },
+    {
+      "time": 8.75,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "verse"
+    },
+    {
+      "time": 8.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 8.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 8.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 9.0,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "verse"
+    },
+    {
+      "time": 9.0,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "verse"
+    },
+    {
+      "time": 9.0,
+      "kind": "melody",
+      "strength": 1,
+      "section": "verse"
+    },
+    {
+      "time": 9.125,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "verse"
+    },
+    {
+      "time": 9.25,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "verse"
+    },
+    {
+      "time": 9.25,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "verse"
+    },
+    {
+      "time": 9.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 9.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 9.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 9.375,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "verse"
+    },
+    {
+      "time": 9.375,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "verse"
+    },
+    {
+      "time": 9.5,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "verse"
+    },
+    {
+      "time": 9.5,
+      "kind": "snare",
+      "strength": 0.95,
+      "section": "verse"
+    },
+    {
+      "time": 9.5,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "verse"
+    },
+    {
+      "time": 9.75,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "verse"
+    },
+    {
+      "time": 9.75,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "verse"
+    },
+    {
+      "time": 9.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 9.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 9.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 9.75,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "verse"
+    },
+    {
+      "time": 9.75,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "verse"
+    },
+    {
+      "time": 10.0,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "verse"
+    },
+    {
+      "time": 10.0,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "verse"
+    },
+    {
+      "time": 10.0,
+      "kind": "melody",
+      "strength": 1,
+      "section": "verse"
+    },
+    {
+      "time": 10.125,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "verse"
+    },
+    {
+      "time": 10.25,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "verse"
+    },
+    {
+      "time": 10.25,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "verse"
+    },
+    {
+      "time": 10.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 10.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 10.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 10.375,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "verse"
+    },
+    {
+      "time": 10.375,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "verse"
+    },
+    {
+      "time": 10.5,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "verse"
+    },
+    {
+      "time": 10.5,
+      "kind": "snare",
+      "strength": 0.95,
+      "section": "verse"
+    },
+    {
+      "time": 10.5,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "verse"
+    },
+    {
+      "time": 10.75,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "verse"
+    },
+    {
+      "time": 10.75,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "verse"
+    },
+    {
+      "time": 10.75,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "verse"
+    },
+    {
+      "time": 10.75,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "verse"
+    },
+    {
+      "time": 10.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 10.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 10.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 11.0,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "verse"
+    },
+    {
+      "time": 11.0,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "verse"
+    },
+    {
+      "time": 11.0,
+      "kind": "melody",
+      "strength": 1,
+      "section": "verse"
+    },
+    {
+      "time": 11.125,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "verse"
+    },
+    {
+      "time": 11.25,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "verse"
+    },
+    {
+      "time": 11.25,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "verse"
+    },
+    {
+      "time": 11.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 11.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 11.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 11.375,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "verse"
+    },
+    {
+      "time": 11.375,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "verse"
+    },
+    {
+      "time": 11.5,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "verse"
+    },
+    {
+      "time": 11.5,
+      "kind": "snare",
+      "strength": 0.95,
+      "section": "verse"
+    },
+    {
+      "time": 11.5,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "verse"
+    },
+    {
+      "time": 11.75,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "verse"
+    },
+    {
+      "time": 11.75,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "verse"
+    },
+    {
+      "time": 11.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 11.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 11.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 11.75,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "verse"
+    },
+    {
+      "time": 11.75,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "verse"
+    },
+    {
+      "time": 12.0,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "verse"
+    },
+    {
+      "time": 12.0,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "verse"
+    },
+    {
+      "time": 12.0,
+      "kind": "melody",
+      "strength": 1,
+      "section": "verse"
+    },
+    {
+      "time": 12.125,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "verse"
+    },
+    {
+      "time": 12.25,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "verse"
+    },
+    {
+      "time": 12.25,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "verse"
+    },
+    {
+      "time": 12.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 12.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 12.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 12.375,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "verse"
+    },
+    {
+      "time": 12.375,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "verse"
+    },
+    {
+      "time": 12.5,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "verse"
+    },
+    {
+      "time": 12.5,
+      "kind": "snare",
+      "strength": 0.95,
+      "section": "verse"
+    },
+    {
+      "time": 12.5,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "verse"
+    },
+    {
+      "time": 12.75,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "verse"
+    },
+    {
+      "time": 12.75,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "verse"
+    },
+    {
+      "time": 12.75,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "verse"
+    },
+    {
+      "time": 12.75,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "verse"
+    },
+    {
+      "time": 12.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 12.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 12.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 13.0,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "verse"
+    },
+    {
+      "time": 13.0,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "verse"
+    },
+    {
+      "time": 13.0,
+      "kind": "melody",
+      "strength": 1,
+      "section": "verse"
+    },
+    {
+      "time": 13.125,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "verse"
+    },
+    {
+      "time": 13.25,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "verse"
+    },
+    {
+      "time": 13.25,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "verse"
+    },
+    {
+      "time": 13.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 13.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 13.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 13.375,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "verse"
+    },
+    {
+      "time": 13.375,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "verse"
+    },
+    {
+      "time": 13.5,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "verse"
+    },
+    {
+      "time": 13.5,
+      "kind": "snare",
+      "strength": 0.95,
+      "section": "verse"
+    },
+    {
+      "time": 13.5,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "verse"
+    },
+    {
+      "time": 13.75,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "verse"
+    },
+    {
+      "time": 13.75,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "verse"
+    },
+    {
+      "time": 13.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 13.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 13.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 13.75,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "verse"
+    },
+    {
+      "time": 13.75,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "verse"
+    },
+    {
+      "time": 14.0,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "verse"
+    },
+    {
+      "time": 14.0,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "verse"
+    },
+    {
+      "time": 14.0,
+      "kind": "melody",
+      "strength": 1,
+      "section": "verse"
+    },
+    {
+      "time": 14.125,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "verse"
+    },
+    {
+      "time": 14.25,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "verse"
+    },
+    {
+      "time": 14.25,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "verse"
+    },
+    {
+      "time": 14.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 14.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 14.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 14.375,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "verse"
+    },
+    {
+      "time": 14.375,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "verse"
+    },
+    {
+      "time": 14.5,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "verse"
+    },
+    {
+      "time": 14.5,
+      "kind": "snare",
+      "strength": 0.95,
+      "section": "verse"
+    },
+    {
+      "time": 14.5,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "verse"
+    },
+    {
+      "time": 14.75,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "verse"
+    },
+    {
+      "time": 14.75,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "verse"
+    },
+    {
+      "time": 14.75,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "verse"
+    },
+    {
+      "time": 14.75,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "verse"
+    },
+    {
+      "time": 14.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 14.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 14.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 15.0,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "verse"
+    },
+    {
+      "time": 15.0,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "verse"
+    },
+    {
+      "time": 15.0,
+      "kind": "melody",
+      "strength": 1,
+      "section": "verse"
+    },
+    {
+      "time": 15.125,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "verse"
+    },
+    {
+      "time": 15.25,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "verse"
+    },
+    {
+      "time": 15.25,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "verse"
+    },
+    {
+      "time": 15.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 15.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 15.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 15.375,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "verse"
+    },
+    {
+      "time": 15.375,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "verse"
+    },
+    {
+      "time": 15.5,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "verse"
+    },
+    {
+      "time": 15.5,
+      "kind": "snare",
+      "strength": 0.95,
+      "section": "verse"
+    },
+    {
+      "time": 15.5,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "verse"
+    },
+    {
+      "time": 15.5,
+      "kind": "tom",
+      "strength": 0.78,
+      "section": "verse"
+    },
+    {
+      "time": 15.625,
+      "kind": "tom",
+      "strength": 0.78,
+      "section": "verse"
+    },
+    {
+      "time": 15.75,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "verse"
+    },
+    {
+      "time": 15.75,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "verse"
+    },
+    {
+      "time": 15.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 15.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 15.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 15.75,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "verse"
+    },
+    {
+      "time": 15.75,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "verse"
+    },
+    {
+      "time": 15.75,
+      "kind": "tom",
+      "strength": 0.78,
+      "section": "verse"
+    },
+    {
+      "time": 15.875,
+      "kind": "tom",
+      "strength": 0.78,
+      "section": "verse"
+    },
+    {
+      "time": 16.0,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "chorus"
+    },
+    {
+      "time": 16.0,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "chorus"
+    },
+    {
+      "time": 16.0,
+      "kind": "melody",
+      "strength": 1,
+      "section": "chorus"
+    },
+    {
+      "time": 16.0,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 16.0,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 16.0,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 16.125,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "verse"
+    },
+    {
+      "time": 16.25,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "chorus"
+    },
+    {
+      "time": 16.25,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "chorus"
+    },
+    {
+      "time": 16.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 16.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 16.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 16.375,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 16.375,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "chorus"
+    },
+    {
+      "time": 16.5,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "chorus"
+    },
+    {
+      "time": 16.5,
+      "kind": "snare",
+      "strength": 0.95,
+      "section": "chorus"
+    },
+    {
+      "time": 16.5,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "chorus"
+    },
+    {
+      "time": 16.75,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "chorus"
+    },
+    {
+      "time": 16.75,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "chorus"
+    },
+    {
+      "time": 16.75,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 16.75,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "chorus"
+    },
+    {
+      "time": 16.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 16.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 16.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 17.0,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "chorus"
+    },
+    {
+      "time": 17.0,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "chorus"
+    },
+    {
+      "time": 17.0,
+      "kind": "melody",
+      "strength": 1,
+      "section": "chorus"
+    },
+    {
+      "time": 17.125,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 17.25,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "chorus"
+    },
+    {
+      "time": 17.25,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "chorus"
+    },
+    {
+      "time": 17.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 17.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 17.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 17.375,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 17.375,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "chorus"
+    },
+    {
+      "time": 17.5,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "chorus"
+    },
+    {
+      "time": 17.5,
+      "kind": "snare",
+      "strength": 0.95,
+      "section": "chorus"
+    },
+    {
+      "time": 17.5,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "chorus"
+    },
+    {
+      "time": 17.75,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "chorus"
+    },
+    {
+      "time": 17.75,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "chorus"
+    },
+    {
+      "time": 17.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 17.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 17.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 17.75,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 17.75,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "chorus"
+    },
+    {
+      "time": 18.0,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "chorus"
+    },
+    {
+      "time": 18.0,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "chorus"
+    },
+    {
+      "time": 18.0,
+      "kind": "melody",
+      "strength": 1,
+      "section": "chorus"
+    },
+    {
+      "time": 18.125,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 18.25,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "chorus"
+    },
+    {
+      "time": 18.25,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "chorus"
+    },
+    {
+      "time": 18.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 18.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 18.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 18.375,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 18.375,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "chorus"
+    },
+    {
+      "time": 18.5,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "chorus"
+    },
+    {
+      "time": 18.5,
+      "kind": "snare",
+      "strength": 0.95,
+      "section": "chorus"
+    },
+    {
+      "time": 18.5,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "chorus"
+    },
+    {
+      "time": 18.75,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "chorus"
+    },
+    {
+      "time": 18.75,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "chorus"
+    },
+    {
+      "time": 18.75,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 18.75,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "chorus"
+    },
+    {
+      "time": 18.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 18.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 18.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 19.0,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "chorus"
+    },
+    {
+      "time": 19.0,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "chorus"
+    },
+    {
+      "time": 19.0,
+      "kind": "melody",
+      "strength": 1,
+      "section": "chorus"
+    },
+    {
+      "time": 19.125,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 19.25,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "chorus"
+    },
+    {
+      "time": 19.25,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "chorus"
+    },
+    {
+      "time": 19.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 19.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 19.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 19.375,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 19.375,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "chorus"
+    },
+    {
+      "time": 19.5,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "chorus"
+    },
+    {
+      "time": 19.5,
+      "kind": "snare",
+      "strength": 0.95,
+      "section": "chorus"
+    },
+    {
+      "time": 19.5,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "chorus"
+    },
+    {
+      "time": 19.75,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "chorus"
+    },
+    {
+      "time": 19.75,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "chorus"
+    },
+    {
+      "time": 19.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 19.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 19.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 19.75,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 19.75,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "chorus"
+    },
+    {
+      "time": 20.0,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "chorus"
+    },
+    {
+      "time": 20.0,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "chorus"
+    },
+    {
+      "time": 20.0,
+      "kind": "melody",
+      "strength": 1,
+      "section": "chorus"
+    },
+    {
+      "time": 20.125,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 20.25,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "chorus"
+    },
+    {
+      "time": 20.25,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "chorus"
+    },
+    {
+      "time": 20.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 20.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 20.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 20.375,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 20.375,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "chorus"
+    },
+    {
+      "time": 20.5,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "chorus"
+    },
+    {
+      "time": 20.5,
+      "kind": "snare",
+      "strength": 0.95,
+      "section": "chorus"
+    },
+    {
+      "time": 20.5,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "chorus"
+    },
+    {
+      "time": 20.75,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "chorus"
+    },
+    {
+      "time": 20.75,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "chorus"
+    },
+    {
+      "time": 20.75,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 20.75,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "chorus"
+    },
+    {
+      "time": 20.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 20.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 20.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 21.0,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "chorus"
+    },
+    {
+      "time": 21.0,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "chorus"
+    },
+    {
+      "time": 21.0,
+      "kind": "melody",
+      "strength": 1,
+      "section": "chorus"
+    },
+    {
+      "time": 21.125,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 21.25,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "chorus"
+    },
+    {
+      "time": 21.25,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "chorus"
+    },
+    {
+      "time": 21.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 21.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 21.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 21.375,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 21.375,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "chorus"
+    },
+    {
+      "time": 21.5,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "chorus"
+    },
+    {
+      "time": 21.5,
+      "kind": "snare",
+      "strength": 0.95,
+      "section": "chorus"
+    },
+    {
+      "time": 21.5,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "chorus"
+    },
+    {
+      "time": 21.75,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "chorus"
+    },
+    {
+      "time": 21.75,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "chorus"
+    },
+    {
+      "time": 21.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 21.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 21.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 21.75,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 21.75,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "chorus"
+    },
+    {
+      "time": 22.0,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "chorus"
+    },
+    {
+      "time": 22.0,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "chorus"
+    },
+    {
+      "time": 22.0,
+      "kind": "melody",
+      "strength": 1,
+      "section": "chorus"
+    },
+    {
+      "time": 22.125,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 22.25,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "chorus"
+    },
+    {
+      "time": 22.25,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "chorus"
+    },
+    {
+      "time": 22.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 22.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 22.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 22.375,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 22.375,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "chorus"
+    },
+    {
+      "time": 22.5,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "chorus"
+    },
+    {
+      "time": 22.5,
+      "kind": "snare",
+      "strength": 0.95,
+      "section": "chorus"
+    },
+    {
+      "time": 22.5,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "chorus"
+    },
+    {
+      "time": 22.75,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "chorus"
+    },
+    {
+      "time": 22.75,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "chorus"
+    },
+    {
+      "time": 22.75,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 22.75,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "chorus"
+    },
+    {
+      "time": 22.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 22.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 22.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 23.0,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "chorus"
+    },
+    {
+      "time": 23.0,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "chorus"
+    },
+    {
+      "time": 23.0,
+      "kind": "melody",
+      "strength": 1,
+      "section": "chorus"
+    },
+    {
+      "time": 23.125,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 23.25,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "chorus"
+    },
+    {
+      "time": 23.25,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "chorus"
+    },
+    {
+      "time": 23.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 23.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 23.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 23.375,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 23.375,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "chorus"
+    },
+    {
+      "time": 23.5,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "chorus"
+    },
+    {
+      "time": 23.5,
+      "kind": "snare",
+      "strength": 0.95,
+      "section": "chorus"
+    },
+    {
+      "time": 23.5,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "chorus"
+    },
+    {
+      "time": 23.5,
+      "kind": "tom",
+      "strength": 0.78,
+      "section": "chorus"
+    },
+    {
+      "time": 23.625,
+      "kind": "tom",
+      "strength": 0.78,
+      "section": "chorus"
+    },
+    {
+      "time": 23.75,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "chorus"
+    },
+    {
+      "time": 23.75,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "chorus"
+    },
+    {
+      "time": 23.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 23.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 23.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 23.75,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 23.75,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "chorus"
+    },
+    {
+      "time": 23.75,
+      "kind": "tom",
+      "strength": 0.78,
+      "section": "chorus"
+    },
+    {
+      "time": 23.875,
+      "kind": "tom",
+      "strength": 0.78,
+      "section": "chorus"
+    },
+    {
+      "time": 24.0,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "chorus"
+    },
+    {
+      "time": 24.0,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "chorus"
+    },
+    {
+      "time": 24.0,
+      "kind": "melody",
+      "strength": 1,
+      "section": "chorus"
+    },
+    {
+      "time": 24.125,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 24.25,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "chorus"
+    },
+    {
+      "time": 24.25,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "chorus"
+    },
+    {
+      "time": 24.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 24.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 24.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 24.375,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 24.375,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "chorus"
+    },
+    {
+      "time": 24.5,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "chorus"
+    },
+    {
+      "time": 24.5,
+      "kind": "snare",
+      "strength": 0.95,
+      "section": "chorus"
+    },
+    {
+      "time": 24.5,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "chorus"
+    },
+    {
+      "time": 24.75,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "chorus"
+    },
+    {
+      "time": 24.75,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "chorus"
+    },
+    {
+      "time": 24.75,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 24.75,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "chorus"
+    },
+    {
+      "time": 24.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 24.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 24.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 25.0,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "chorus"
+    },
+    {
+      "time": 25.0,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "chorus"
+    },
+    {
+      "time": 25.0,
+      "kind": "melody",
+      "strength": 1,
+      "section": "chorus"
+    },
+    {
+      "time": 25.125,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 25.25,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "chorus"
+    },
+    {
+      "time": 25.25,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "chorus"
+    },
+    {
+      "time": 25.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 25.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 25.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 25.375,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 25.375,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "chorus"
+    },
+    {
+      "time": 25.5,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "chorus"
+    },
+    {
+      "time": 25.5,
+      "kind": "snare",
+      "strength": 0.95,
+      "section": "chorus"
+    },
+    {
+      "time": 25.5,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "chorus"
+    },
+    {
+      "time": 25.75,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "chorus"
+    },
+    {
+      "time": 25.75,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "chorus"
+    },
+    {
+      "time": 25.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 25.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 25.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 25.75,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 25.75,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "chorus"
+    },
+    {
+      "time": 26.0,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "chorus"
+    },
+    {
+      "time": 26.0,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "chorus"
+    },
+    {
+      "time": 26.0,
+      "kind": "melody",
+      "strength": 1,
+      "section": "chorus"
+    },
+    {
+      "time": 26.125,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 26.25,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "chorus"
+    },
+    {
+      "time": 26.25,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "chorus"
+    },
+    {
+      "time": 26.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 26.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 26.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 26.375,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 26.375,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "chorus"
+    },
+    {
+      "time": 26.5,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "chorus"
+    },
+    {
+      "time": 26.5,
+      "kind": "snare",
+      "strength": 0.95,
+      "section": "chorus"
+    },
+    {
+      "time": 26.5,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "chorus"
+    },
+    {
+      "time": 26.75,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "chorus"
+    },
+    {
+      "time": 26.75,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "chorus"
+    },
+    {
+      "time": 26.75,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 26.75,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "chorus"
+    },
+    {
+      "time": 26.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 26.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 26.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 27.0,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "chorus"
+    },
+    {
+      "time": 27.0,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "chorus"
+    },
+    {
+      "time": 27.0,
+      "kind": "melody",
+      "strength": 1,
+      "section": "chorus"
+    },
+    {
+      "time": 27.125,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 27.25,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "chorus"
+    },
+    {
+      "time": 27.25,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "chorus"
+    },
+    {
+      "time": 27.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 27.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 27.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 27.375,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 27.375,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "chorus"
+    },
+    {
+      "time": 27.5,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "chorus"
+    },
+    {
+      "time": 27.5,
+      "kind": "snare",
+      "strength": 0.95,
+      "section": "chorus"
+    },
+    {
+      "time": 27.5,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "chorus"
+    },
+    {
+      "time": 27.75,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "chorus"
+    },
+    {
+      "time": 27.75,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "chorus"
+    },
+    {
+      "time": 27.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 27.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 27.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 27.75,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 27.75,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "chorus"
+    },
+    {
+      "time": 28.0,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "chorus"
+    },
+    {
+      "time": 28.0,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "chorus"
+    },
+    {
+      "time": 28.0,
+      "kind": "melody",
+      "strength": 1,
+      "section": "chorus"
+    },
+    {
+      "time": 28.125,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 28.25,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "chorus"
+    },
+    {
+      "time": 28.25,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "chorus"
+    },
+    {
+      "time": 28.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 28.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 28.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 28.375,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 28.375,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "chorus"
+    },
+    {
+      "time": 28.5,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "chorus"
+    },
+    {
+      "time": 28.5,
+      "kind": "snare",
+      "strength": 0.95,
+      "section": "chorus"
+    },
+    {
+      "time": 28.5,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "chorus"
+    },
+    {
+      "time": 28.75,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "chorus"
+    },
+    {
+      "time": 28.75,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "chorus"
+    },
+    {
+      "time": 28.75,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 28.75,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "chorus"
+    },
+    {
+      "time": 28.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 28.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 28.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 29.0,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "chorus"
+    },
+    {
+      "time": 29.0,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "chorus"
+    },
+    {
+      "time": 29.0,
+      "kind": "melody",
+      "strength": 1,
+      "section": "chorus"
+    },
+    {
+      "time": 29.125,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 29.25,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "chorus"
+    },
+    {
+      "time": 29.25,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "chorus"
+    },
+    {
+      "time": 29.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 29.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 29.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 29.375,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 29.375,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "chorus"
+    },
+    {
+      "time": 29.5,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "chorus"
+    },
+    {
+      "time": 29.5,
+      "kind": "snare",
+      "strength": 0.95,
+      "section": "chorus"
+    },
+    {
+      "time": 29.5,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "chorus"
+    },
+    {
+      "time": 29.75,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "chorus"
+    },
+    {
+      "time": 29.75,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "chorus"
+    },
+    {
+      "time": 29.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 29.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 29.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 29.75,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 29.75,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "chorus"
+    },
+    {
+      "time": 30.0,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "chorus"
+    },
+    {
+      "time": 30.0,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "chorus"
+    },
+    {
+      "time": 30.0,
+      "kind": "melody",
+      "strength": 1,
+      "section": "chorus"
+    },
+    {
+      "time": 30.125,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 30.25,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "chorus"
+    },
+    {
+      "time": 30.25,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "chorus"
+    },
+    {
+      "time": 30.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 30.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 30.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 30.375,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 30.375,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "chorus"
+    },
+    {
+      "time": 30.5,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "chorus"
+    },
+    {
+      "time": 30.5,
+      "kind": "snare",
+      "strength": 0.95,
+      "section": "chorus"
+    },
+    {
+      "time": 30.5,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "chorus"
+    },
+    {
+      "time": 30.75,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "chorus"
+    },
+    {
+      "time": 30.75,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "chorus"
+    },
+    {
+      "time": 30.75,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 30.75,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "chorus"
+    },
+    {
+      "time": 30.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 30.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 30.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 31.0,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "chorus"
+    },
+    {
+      "time": 31.0,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "chorus"
+    },
+    {
+      "time": 31.0,
+      "kind": "melody",
+      "strength": 1,
+      "section": "chorus"
+    },
+    {
+      "time": 31.125,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 31.25,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "chorus"
+    },
+    {
+      "time": 31.25,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "chorus"
+    },
+    {
+      "time": 31.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 31.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 31.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 31.375,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 31.375,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "chorus"
+    },
+    {
+      "time": 31.5,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "chorus"
+    },
+    {
+      "time": 31.5,
+      "kind": "snare",
+      "strength": 0.95,
+      "section": "chorus"
+    },
+    {
+      "time": 31.5,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "chorus"
+    },
+    {
+      "time": 31.5,
+      "kind": "tom",
+      "strength": 0.78,
+      "section": "chorus"
+    },
+    {
+      "time": 31.625,
+      "kind": "tom",
+      "strength": 0.78,
+      "section": "chorus"
+    },
+    {
+      "time": 31.75,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "chorus"
+    },
+    {
+      "time": 31.75,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "chorus"
+    },
+    {
+      "time": 31.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 31.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 31.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 31.75,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 31.75,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "chorus"
+    },
+    {
+      "time": 31.75,
+      "kind": "tom",
+      "strength": 0.78,
+      "section": "chorus"
+    },
+    {
+      "time": 31.875,
+      "kind": "tom",
+      "strength": 0.78,
+      "section": "chorus"
+    },
+    {
+      "time": 32.0,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "bridge"
+    },
+    {
+      "time": 32.0,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "bridge"
+    },
+    {
+      "time": 32.0,
+      "kind": "melody",
+      "strength": 1,
+      "section": "bridge"
+    },
+    {
+      "time": 32.0,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "bridge"
+    },
+    {
+      "time": 32.0,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "bridge"
+    },
+    {
+      "time": 32.0,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "bridge"
+    },
+    {
+      "time": 32.125,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 32.25,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "bridge"
+    },
+    {
+      "time": 32.25,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "bridge"
+    },
+    {
+      "time": 32.375,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "bridge"
+    },
+    {
+      "time": 32.5,
+      "kind": "snare",
+      "strength": 0.95,
+      "section": "bridge"
+    },
+    {
+      "time": 32.5,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "bridge"
+    },
+    {
+      "time": 32.75,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "bridge"
+    },
+    {
+      "time": 32.75,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "bridge"
+    },
+    {
+      "time": 33.0,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "bridge"
+    },
+    {
+      "time": 33.0,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "bridge"
+    },
+    {
+      "time": 33.0,
+      "kind": "melody",
+      "strength": 1,
+      "section": "bridge"
+    },
+    {
+      "time": 33.25,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "bridge"
+    },
+    {
+      "time": 33.25,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "bridge"
+    },
+    {
+      "time": 33.375,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "bridge"
+    },
+    {
+      "time": 33.5,
+      "kind": "snare",
+      "strength": 0.95,
+      "section": "bridge"
+    },
+    {
+      "time": 33.5,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "bridge"
+    },
+    {
+      "time": 33.75,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "bridge"
+    },
+    {
+      "time": 33.75,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "bridge"
+    },
+    {
+      "time": 34.0,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "bridge"
+    },
+    {
+      "time": 34.0,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "bridge"
+    },
+    {
+      "time": 34.0,
+      "kind": "melody",
+      "strength": 1,
+      "section": "bridge"
+    },
+    {
+      "time": 34.25,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "bridge"
+    },
+    {
+      "time": 34.25,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "bridge"
+    },
+    {
+      "time": 34.375,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "bridge"
+    },
+    {
+      "time": 34.5,
+      "kind": "snare",
+      "strength": 0.95,
+      "section": "bridge"
+    },
+    {
+      "time": 34.5,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "bridge"
+    },
+    {
+      "time": 34.75,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "bridge"
+    },
+    {
+      "time": 34.75,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "bridge"
+    },
+    {
+      "time": 35.0,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "bridge"
+    },
+    {
+      "time": 35.0,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "bridge"
+    },
+    {
+      "time": 35.0,
+      "kind": "melody",
+      "strength": 1,
+      "section": "bridge"
+    },
+    {
+      "time": 35.25,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "bridge"
+    },
+    {
+      "time": 35.25,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "bridge"
+    },
+    {
+      "time": 35.375,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "bridge"
+    },
+    {
+      "time": 35.5,
+      "kind": "snare",
+      "strength": 0.95,
+      "section": "bridge"
+    },
+    {
+      "time": 35.5,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "bridge"
+    },
+    {
+      "time": 35.75,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "bridge"
+    },
+    {
+      "time": 35.75,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "bridge"
+    },
+    {
+      "time": 36.0,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "bridge"
+    },
+    {
+      "time": 36.0,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "bridge"
+    },
+    {
+      "time": 36.0,
+      "kind": "melody",
+      "strength": 1,
+      "section": "bridge"
+    },
+    {
+      "time": 36.25,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "bridge"
+    },
+    {
+      "time": 36.25,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "bridge"
+    },
+    {
+      "time": 36.375,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "bridge"
+    },
+    {
+      "time": 36.5,
+      "kind": "snare",
+      "strength": 0.95,
+      "section": "bridge"
+    },
+    {
+      "time": 36.5,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "bridge"
+    },
+    {
+      "time": 36.75,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "bridge"
+    },
+    {
+      "time": 36.75,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "bridge"
+    },
+    {
+      "time": 37.0,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "bridge"
+    },
+    {
+      "time": 37.0,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "bridge"
+    },
+    {
+      "time": 37.0,
+      "kind": "melody",
+      "strength": 1,
+      "section": "bridge"
+    },
+    {
+      "time": 37.25,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "bridge"
+    },
+    {
+      "time": 37.25,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "bridge"
+    },
+    {
+      "time": 37.375,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "bridge"
+    },
+    {
+      "time": 37.5,
+      "kind": "snare",
+      "strength": 0.95,
+      "section": "bridge"
+    },
+    {
+      "time": 37.5,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "bridge"
+    },
+    {
+      "time": 37.75,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "bridge"
+    },
+    {
+      "time": 37.75,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "bridge"
+    },
+    {
+      "time": 38.0,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "bridge"
+    },
+    {
+      "time": 38.0,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "bridge"
+    },
+    {
+      "time": 38.0,
+      "kind": "melody",
+      "strength": 1,
+      "section": "bridge"
+    },
+    {
+      "time": 38.25,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "bridge"
+    },
+    {
+      "time": 38.25,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "bridge"
+    },
+    {
+      "time": 38.375,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "bridge"
+    },
+    {
+      "time": 38.5,
+      "kind": "snare",
+      "strength": 0.95,
+      "section": "bridge"
+    },
+    {
+      "time": 38.5,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "bridge"
+    },
+    {
+      "time": 38.75,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "bridge"
+    },
+    {
+      "time": 38.75,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "bridge"
+    },
+    {
+      "time": 39.0,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "bridge"
+    },
+    {
+      "time": 39.0,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "bridge"
+    },
+    {
+      "time": 39.0,
+      "kind": "melody",
+      "strength": 1,
+      "section": "bridge"
+    },
+    {
+      "time": 39.25,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "bridge"
+    },
+    {
+      "time": 39.25,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "bridge"
+    },
+    {
+      "time": 39.375,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "bridge"
+    },
+    {
+      "time": 39.5,
+      "kind": "snare",
+      "strength": 0.95,
+      "section": "bridge"
+    },
+    {
+      "time": 39.5,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "bridge"
+    },
+    {
+      "time": 39.5,
+      "kind": "tom",
+      "strength": 0.78,
+      "section": "bridge"
+    },
+    {
+      "time": 39.625,
+      "kind": "tom",
+      "strength": 0.78,
+      "section": "bridge"
+    },
+    {
+      "time": 39.75,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "bridge"
+    },
+    {
+      "time": 39.75,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "bridge"
+    },
+    {
+      "time": 39.75,
+      "kind": "tom",
+      "strength": 0.78,
+      "section": "bridge"
+    },
+    {
+      "time": 39.875,
+      "kind": "tom",
+      "strength": 0.78,
+      "section": "bridge"
+    },
+    {
+      "time": 40.0,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "verse"
+    },
+    {
+      "time": 40.0,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "verse"
+    },
+    {
+      "time": 40.0,
+      "kind": "melody",
+      "strength": 1,
+      "section": "verse"
+    },
+    {
+      "time": 40.25,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "verse"
+    },
+    {
+      "time": 40.25,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "verse"
+    },
+    {
+      "time": 40.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 40.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 40.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 40.375,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "verse"
+    },
+    {
+      "time": 40.375,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "verse"
+    },
+    {
+      "time": 40.5,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "verse"
+    },
+    {
+      "time": 40.5,
+      "kind": "snare",
+      "strength": 0.95,
+      "section": "verse"
+    },
+    {
+      "time": 40.5,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "verse"
+    },
+    {
+      "time": 40.75,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "verse"
+    },
+    {
+      "time": 40.75,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "verse"
+    },
+    {
+      "time": 40.75,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "verse"
+    },
+    {
+      "time": 40.75,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "verse"
+    },
+    {
+      "time": 40.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 40.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 40.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 41.0,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "verse"
+    },
+    {
+      "time": 41.0,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "verse"
+    },
+    {
+      "time": 41.0,
+      "kind": "melody",
+      "strength": 1,
+      "section": "verse"
+    },
+    {
+      "time": 41.125,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "verse"
+    },
+    {
+      "time": 41.25,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "verse"
+    },
+    {
+      "time": 41.25,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "verse"
+    },
+    {
+      "time": 41.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 41.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 41.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 41.375,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "verse"
+    },
+    {
+      "time": 41.375,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "verse"
+    },
+    {
+      "time": 41.5,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "verse"
+    },
+    {
+      "time": 41.5,
+      "kind": "snare",
+      "strength": 0.95,
+      "section": "verse"
+    },
+    {
+      "time": 41.5,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "verse"
+    },
+    {
+      "time": 41.75,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "verse"
+    },
+    {
+      "time": 41.75,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "verse"
+    },
+    {
+      "time": 41.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 41.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 41.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 41.75,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "verse"
+    },
+    {
+      "time": 41.75,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "verse"
+    },
+    {
+      "time": 42.0,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "verse"
+    },
+    {
+      "time": 42.0,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "verse"
+    },
+    {
+      "time": 42.0,
+      "kind": "melody",
+      "strength": 1,
+      "section": "verse"
+    },
+    {
+      "time": 42.125,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "verse"
+    },
+    {
+      "time": 42.25,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "verse"
+    },
+    {
+      "time": 42.25,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "verse"
+    },
+    {
+      "time": 42.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 42.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 42.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 42.375,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "verse"
+    },
+    {
+      "time": 42.375,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "verse"
+    },
+    {
+      "time": 42.5,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "verse"
+    },
+    {
+      "time": 42.5,
+      "kind": "snare",
+      "strength": 0.95,
+      "section": "verse"
+    },
+    {
+      "time": 42.5,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "verse"
+    },
+    {
+      "time": 42.75,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "verse"
+    },
+    {
+      "time": 42.75,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "verse"
+    },
+    {
+      "time": 42.75,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "verse"
+    },
+    {
+      "time": 42.75,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "verse"
+    },
+    {
+      "time": 42.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 42.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 42.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 43.0,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "verse"
+    },
+    {
+      "time": 43.0,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "verse"
+    },
+    {
+      "time": 43.0,
+      "kind": "melody",
+      "strength": 1,
+      "section": "verse"
+    },
+    {
+      "time": 43.125,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "verse"
+    },
+    {
+      "time": 43.25,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "verse"
+    },
+    {
+      "time": 43.25,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "verse"
+    },
+    {
+      "time": 43.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 43.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 43.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 43.375,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "verse"
+    },
+    {
+      "time": 43.375,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "verse"
+    },
+    {
+      "time": 43.5,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "verse"
+    },
+    {
+      "time": 43.5,
+      "kind": "snare",
+      "strength": 0.95,
+      "section": "verse"
+    },
+    {
+      "time": 43.5,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "verse"
+    },
+    {
+      "time": 43.75,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "verse"
+    },
+    {
+      "time": 43.75,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "verse"
+    },
+    {
+      "time": 43.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 43.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 43.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 43.75,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "verse"
+    },
+    {
+      "time": 43.75,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "verse"
+    },
+    {
+      "time": 44.0,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "verse"
+    },
+    {
+      "time": 44.0,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "verse"
+    },
+    {
+      "time": 44.0,
+      "kind": "melody",
+      "strength": 1,
+      "section": "verse"
+    },
+    {
+      "time": 44.125,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "verse"
+    },
+    {
+      "time": 44.25,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "verse"
+    },
+    {
+      "time": 44.25,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "verse"
+    },
+    {
+      "time": 44.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 44.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 44.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 44.375,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "verse"
+    },
+    {
+      "time": 44.375,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "verse"
+    },
+    {
+      "time": 44.5,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "verse"
+    },
+    {
+      "time": 44.5,
+      "kind": "snare",
+      "strength": 0.95,
+      "section": "verse"
+    },
+    {
+      "time": 44.5,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "verse"
+    },
+    {
+      "time": 44.75,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "verse"
+    },
+    {
+      "time": 44.75,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "verse"
+    },
+    {
+      "time": 44.75,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "verse"
+    },
+    {
+      "time": 44.75,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "verse"
+    },
+    {
+      "time": 44.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 44.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 44.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 45.0,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "verse"
+    },
+    {
+      "time": 45.0,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "verse"
+    },
+    {
+      "time": 45.0,
+      "kind": "melody",
+      "strength": 1,
+      "section": "verse"
+    },
+    {
+      "time": 45.125,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "verse"
+    },
+    {
+      "time": 45.25,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "verse"
+    },
+    {
+      "time": 45.25,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "verse"
+    },
+    {
+      "time": 45.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 45.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 45.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 45.375,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "verse"
+    },
+    {
+      "time": 45.375,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "verse"
+    },
+    {
+      "time": 45.5,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "verse"
+    },
+    {
+      "time": 45.5,
+      "kind": "snare",
+      "strength": 0.95,
+      "section": "verse"
+    },
+    {
+      "time": 45.5,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "verse"
+    },
+    {
+      "time": 45.75,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "verse"
+    },
+    {
+      "time": 45.75,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "verse"
+    },
+    {
+      "time": 45.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 45.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 45.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 45.75,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "verse"
+    },
+    {
+      "time": 45.75,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "verse"
+    },
+    {
+      "time": 46.0,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "verse"
+    },
+    {
+      "time": 46.0,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "verse"
+    },
+    {
+      "time": 46.0,
+      "kind": "melody",
+      "strength": 1,
+      "section": "verse"
+    },
+    {
+      "time": 46.125,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "verse"
+    },
+    {
+      "time": 46.25,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "verse"
+    },
+    {
+      "time": 46.25,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "verse"
+    },
+    {
+      "time": 46.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 46.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 46.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 46.375,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "verse"
+    },
+    {
+      "time": 46.375,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "verse"
+    },
+    {
+      "time": 46.5,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "verse"
+    },
+    {
+      "time": 46.5,
+      "kind": "snare",
+      "strength": 0.95,
+      "section": "verse"
+    },
+    {
+      "time": 46.5,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "verse"
+    },
+    {
+      "time": 46.75,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "verse"
+    },
+    {
+      "time": 46.75,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "verse"
+    },
+    {
+      "time": 46.75,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "verse"
+    },
+    {
+      "time": 46.75,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "verse"
+    },
+    {
+      "time": 46.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 46.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 46.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 47.0,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "verse"
+    },
+    {
+      "time": 47.0,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "verse"
+    },
+    {
+      "time": 47.0,
+      "kind": "melody",
+      "strength": 1,
+      "section": "verse"
+    },
+    {
+      "time": 47.125,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "verse"
+    },
+    {
+      "time": 47.25,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "verse"
+    },
+    {
+      "time": 47.25,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "verse"
+    },
+    {
+      "time": 47.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 47.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 47.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 47.375,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "verse"
+    },
+    {
+      "time": 47.375,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "verse"
+    },
+    {
+      "time": 47.5,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "verse"
+    },
+    {
+      "time": 47.5,
+      "kind": "snare",
+      "strength": 0.95,
+      "section": "verse"
+    },
+    {
+      "time": 47.5,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "verse"
+    },
+    {
+      "time": 47.5,
+      "kind": "tom",
+      "strength": 0.78,
+      "section": "verse"
+    },
+    {
+      "time": 47.625,
+      "kind": "tom",
+      "strength": 0.78,
+      "section": "verse"
+    },
+    {
+      "time": 47.75,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "verse"
+    },
+    {
+      "time": 47.75,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "verse"
+    },
+    {
+      "time": 47.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 47.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 47.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 47.75,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "verse"
+    },
+    {
+      "time": 47.75,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "verse"
+    },
+    {
+      "time": 47.75,
+      "kind": "tom",
+      "strength": 0.78,
+      "section": "verse"
+    },
+    {
+      "time": 47.875,
+      "kind": "tom",
+      "strength": 0.78,
+      "section": "verse"
+    },
+    {
+      "time": 48.0,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "chorus"
+    },
+    {
+      "time": 48.0,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "chorus"
+    },
+    {
+      "time": 48.0,
+      "kind": "melody",
+      "strength": 1,
+      "section": "chorus"
+    },
+    {
+      "time": 48.0,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 48.0,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 48.0,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 48.125,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "verse"
+    },
+    {
+      "time": 48.25,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "chorus"
+    },
+    {
+      "time": 48.25,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "chorus"
+    },
+    {
+      "time": 48.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 48.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 48.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 48.375,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 48.375,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "chorus"
+    },
+    {
+      "time": 48.5,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "chorus"
+    },
+    {
+      "time": 48.5,
+      "kind": "snare",
+      "strength": 0.95,
+      "section": "chorus"
+    },
+    {
+      "time": 48.5,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "chorus"
+    },
+    {
+      "time": 48.75,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "chorus"
+    },
+    {
+      "time": 48.75,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "chorus"
+    },
+    {
+      "time": 48.75,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 48.75,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "chorus"
+    },
+    {
+      "time": 48.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 48.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 48.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 49.0,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "chorus"
+    },
+    {
+      "time": 49.0,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "chorus"
+    },
+    {
+      "time": 49.0,
+      "kind": "melody",
+      "strength": 1,
+      "section": "chorus"
+    },
+    {
+      "time": 49.125,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 49.25,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "chorus"
+    },
+    {
+      "time": 49.25,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "chorus"
+    },
+    {
+      "time": 49.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 49.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 49.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 49.375,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 49.375,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "chorus"
+    },
+    {
+      "time": 49.5,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "chorus"
+    },
+    {
+      "time": 49.5,
+      "kind": "snare",
+      "strength": 0.95,
+      "section": "chorus"
+    },
+    {
+      "time": 49.5,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "chorus"
+    },
+    {
+      "time": 49.75,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "chorus"
+    },
+    {
+      "time": 49.75,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "chorus"
+    },
+    {
+      "time": 49.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 49.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 49.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 49.75,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 49.75,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "chorus"
+    },
+    {
+      "time": 50.0,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "chorus"
+    },
+    {
+      "time": 50.0,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "chorus"
+    },
+    {
+      "time": 50.0,
+      "kind": "melody",
+      "strength": 1,
+      "section": "chorus"
+    },
+    {
+      "time": 50.125,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 50.25,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "chorus"
+    },
+    {
+      "time": 50.25,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "chorus"
+    },
+    {
+      "time": 50.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 50.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 50.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 50.375,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 50.375,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "chorus"
+    },
+    {
+      "time": 50.5,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "chorus"
+    },
+    {
+      "time": 50.5,
+      "kind": "snare",
+      "strength": 0.95,
+      "section": "chorus"
+    },
+    {
+      "time": 50.5,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "chorus"
+    },
+    {
+      "time": 50.75,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "chorus"
+    },
+    {
+      "time": 50.75,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "chorus"
+    },
+    {
+      "time": 50.75,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 50.75,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "chorus"
+    },
+    {
+      "time": 50.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 50.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 50.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 51.0,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "chorus"
+    },
+    {
+      "time": 51.0,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "chorus"
+    },
+    {
+      "time": 51.0,
+      "kind": "melody",
+      "strength": 1,
+      "section": "chorus"
+    },
+    {
+      "time": 51.125,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 51.25,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "chorus"
+    },
+    {
+      "time": 51.25,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "chorus"
+    },
+    {
+      "time": 51.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 51.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 51.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 51.375,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 51.375,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "chorus"
+    },
+    {
+      "time": 51.5,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "chorus"
+    },
+    {
+      "time": 51.5,
+      "kind": "snare",
+      "strength": 0.95,
+      "section": "chorus"
+    },
+    {
+      "time": 51.5,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "chorus"
+    },
+    {
+      "time": 51.75,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "chorus"
+    },
+    {
+      "time": 51.75,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "chorus"
+    },
+    {
+      "time": 51.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 51.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 51.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 51.75,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 51.75,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "chorus"
+    },
+    {
+      "time": 52.0,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "chorus"
+    },
+    {
+      "time": 52.0,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "chorus"
+    },
+    {
+      "time": 52.0,
+      "kind": "melody",
+      "strength": 1,
+      "section": "chorus"
+    },
+    {
+      "time": 52.125,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 52.25,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "chorus"
+    },
+    {
+      "time": 52.25,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "chorus"
+    },
+    {
+      "time": 52.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 52.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 52.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 52.375,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 52.375,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "chorus"
+    },
+    {
+      "time": 52.5,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "chorus"
+    },
+    {
+      "time": 52.5,
+      "kind": "snare",
+      "strength": 0.95,
+      "section": "chorus"
+    },
+    {
+      "time": 52.5,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "chorus"
+    },
+    {
+      "time": 52.75,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "chorus"
+    },
+    {
+      "time": 52.75,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "chorus"
+    },
+    {
+      "time": 52.75,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 52.75,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "chorus"
+    },
+    {
+      "time": 52.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 52.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 52.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 53.0,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "chorus"
+    },
+    {
+      "time": 53.0,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "chorus"
+    },
+    {
+      "time": 53.0,
+      "kind": "melody",
+      "strength": 1,
+      "section": "chorus"
+    },
+    {
+      "time": 53.125,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 53.25,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "chorus"
+    },
+    {
+      "time": 53.25,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "chorus"
+    },
+    {
+      "time": 53.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 53.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 53.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 53.375,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 53.375,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "chorus"
+    },
+    {
+      "time": 53.5,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "chorus"
+    },
+    {
+      "time": 53.5,
+      "kind": "snare",
+      "strength": 0.95,
+      "section": "chorus"
+    },
+    {
+      "time": 53.5,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "chorus"
+    },
+    {
+      "time": 53.75,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "chorus"
+    },
+    {
+      "time": 53.75,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "chorus"
+    },
+    {
+      "time": 53.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 53.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 53.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 53.75,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 53.75,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "chorus"
+    },
+    {
+      "time": 54.0,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "chorus"
+    },
+    {
+      "time": 54.0,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "chorus"
+    },
+    {
+      "time": 54.0,
+      "kind": "melody",
+      "strength": 1,
+      "section": "chorus"
+    },
+    {
+      "time": 54.125,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 54.25,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "chorus"
+    },
+    {
+      "time": 54.25,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "chorus"
+    },
+    {
+      "time": 54.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 54.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 54.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 54.375,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 54.375,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "chorus"
+    },
+    {
+      "time": 54.5,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "chorus"
+    },
+    {
+      "time": 54.5,
+      "kind": "snare",
+      "strength": 0.95,
+      "section": "chorus"
+    },
+    {
+      "time": 54.5,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "chorus"
+    },
+    {
+      "time": 54.75,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "chorus"
+    },
+    {
+      "time": 54.75,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "chorus"
+    },
+    {
+      "time": 54.75,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 54.75,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "chorus"
+    },
+    {
+      "time": 54.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 54.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 54.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 55.0,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "chorus"
+    },
+    {
+      "time": 55.0,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "chorus"
+    },
+    {
+      "time": 55.0,
+      "kind": "melody",
+      "strength": 1,
+      "section": "chorus"
+    },
+    {
+      "time": 55.125,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 55.25,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "chorus"
+    },
+    {
+      "time": 55.25,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "chorus"
+    },
+    {
+      "time": 55.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 55.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 55.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 55.375,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 55.375,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "chorus"
+    },
+    {
+      "time": 55.5,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "chorus"
+    },
+    {
+      "time": 55.5,
+      "kind": "snare",
+      "strength": 0.95,
+      "section": "chorus"
+    },
+    {
+      "time": 55.5,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "chorus"
+    },
+    {
+      "time": 55.5,
+      "kind": "tom",
+      "strength": 0.78,
+      "section": "chorus"
+    },
+    {
+      "time": 55.625,
+      "kind": "tom",
+      "strength": 0.78,
+      "section": "chorus"
+    },
+    {
+      "time": 55.75,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "chorus"
+    },
+    {
+      "time": 55.75,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "chorus"
+    },
+    {
+      "time": 55.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 55.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 55.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 55.75,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 55.75,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "chorus"
+    },
+    {
+      "time": 55.75,
+      "kind": "tom",
+      "strength": 0.78,
+      "section": "chorus"
+    },
+    {
+      "time": 55.875,
+      "kind": "tom",
+      "strength": 0.78,
+      "section": "chorus"
+    },
+    {
+      "time": 56.0,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "chorus"
+    },
+    {
+      "time": 56.0,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "chorus"
+    },
+    {
+      "time": 56.0,
+      "kind": "melody",
+      "strength": 1,
+      "section": "chorus"
+    },
+    {
+      "time": 56.125,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 56.25,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "chorus"
+    },
+    {
+      "time": 56.25,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "chorus"
+    },
+    {
+      "time": 56.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 56.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 56.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 56.375,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 56.375,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "chorus"
+    },
+    {
+      "time": 56.5,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "chorus"
+    },
+    {
+      "time": 56.5,
+      "kind": "snare",
+      "strength": 0.95,
+      "section": "chorus"
+    },
+    {
+      "time": 56.5,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "chorus"
+    },
+    {
+      "time": 56.75,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "chorus"
+    },
+    {
+      "time": 56.75,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "chorus"
+    },
+    {
+      "time": 56.75,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 56.75,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "chorus"
+    },
+    {
+      "time": 56.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 56.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 56.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 57.0,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "chorus"
+    },
+    {
+      "time": 57.0,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "chorus"
+    },
+    {
+      "time": 57.0,
+      "kind": "melody",
+      "strength": 1,
+      "section": "chorus"
+    },
+    {
+      "time": 57.125,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 57.25,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "chorus"
+    },
+    {
+      "time": 57.25,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "chorus"
+    },
+    {
+      "time": 57.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 57.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 57.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 57.375,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 57.375,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "chorus"
+    },
+    {
+      "time": 57.5,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "chorus"
+    },
+    {
+      "time": 57.5,
+      "kind": "snare",
+      "strength": 0.95,
+      "section": "chorus"
+    },
+    {
+      "time": 57.5,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "chorus"
+    },
+    {
+      "time": 57.75,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "chorus"
+    },
+    {
+      "time": 57.75,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "chorus"
+    },
+    {
+      "time": 57.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 57.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 57.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 57.75,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 57.75,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "chorus"
+    },
+    {
+      "time": 58.0,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "chorus"
+    },
+    {
+      "time": 58.0,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "chorus"
+    },
+    {
+      "time": 58.0,
+      "kind": "melody",
+      "strength": 1,
+      "section": "chorus"
+    },
+    {
+      "time": 58.125,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 58.25,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "chorus"
+    },
+    {
+      "time": 58.25,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "chorus"
+    },
+    {
+      "time": 58.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 58.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 58.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 58.375,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 58.375,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "chorus"
+    },
+    {
+      "time": 58.5,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "chorus"
+    },
+    {
+      "time": 58.5,
+      "kind": "snare",
+      "strength": 0.95,
+      "section": "chorus"
+    },
+    {
+      "time": 58.5,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "chorus"
+    },
+    {
+      "time": 58.75,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "chorus"
+    },
+    {
+      "time": 58.75,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "chorus"
+    },
+    {
+      "time": 58.75,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 58.75,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "chorus"
+    },
+    {
+      "time": 58.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 58.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 58.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 59.0,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "chorus"
+    },
+    {
+      "time": 59.0,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "chorus"
+    },
+    {
+      "time": 59.0,
+      "kind": "melody",
+      "strength": 1,
+      "section": "chorus"
+    },
+    {
+      "time": 59.125,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 59.25,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "chorus"
+    },
+    {
+      "time": 59.25,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "chorus"
+    },
+    {
+      "time": 59.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 59.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 59.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 59.375,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 59.375,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "chorus"
+    },
+    {
+      "time": 59.5,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "chorus"
+    },
+    {
+      "time": 59.5,
+      "kind": "snare",
+      "strength": 0.95,
+      "section": "chorus"
+    },
+    {
+      "time": 59.5,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "chorus"
+    },
+    {
+      "time": 59.75,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "chorus"
+    },
+    {
+      "time": 59.75,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "chorus"
+    },
+    {
+      "time": 59.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 59.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 59.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 59.75,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 59.75,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "chorus"
+    },
+    {
+      "time": 60.0,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "chorus"
+    },
+    {
+      "time": 60.0,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "chorus"
+    },
+    {
+      "time": 60.0,
+      "kind": "melody",
+      "strength": 1,
+      "section": "chorus"
+    },
+    {
+      "time": 60.125,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 60.25,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "chorus"
+    },
+    {
+      "time": 60.25,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "chorus"
+    },
+    {
+      "time": 60.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 60.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 60.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 60.375,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 60.375,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "chorus"
+    },
+    {
+      "time": 60.5,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "chorus"
+    },
+    {
+      "time": 60.5,
+      "kind": "snare",
+      "strength": 0.95,
+      "section": "chorus"
+    },
+    {
+      "time": 60.5,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "chorus"
+    },
+    {
+      "time": 60.75,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "chorus"
+    },
+    {
+      "time": 60.75,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "chorus"
+    },
+    {
+      "time": 60.75,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 60.75,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "chorus"
+    },
+    {
+      "time": 60.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 60.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 60.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 61.0,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "chorus"
+    },
+    {
+      "time": 61.0,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "chorus"
+    },
+    {
+      "time": 61.0,
+      "kind": "melody",
+      "strength": 1,
+      "section": "chorus"
+    },
+    {
+      "time": 61.125,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 61.25,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "chorus"
+    },
+    {
+      "time": 61.25,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "chorus"
+    },
+    {
+      "time": 61.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 61.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 61.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 61.375,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 61.375,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "chorus"
+    },
+    {
+      "time": 61.5,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "chorus"
+    },
+    {
+      "time": 61.5,
+      "kind": "snare",
+      "strength": 0.95,
+      "section": "chorus"
+    },
+    {
+      "time": 61.5,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "chorus"
+    },
+    {
+      "time": 61.75,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "chorus"
+    },
+    {
+      "time": 61.75,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "chorus"
+    },
+    {
+      "time": 61.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 61.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 61.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 61.75,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 61.75,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "chorus"
+    },
+    {
+      "time": 62.0,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "chorus"
+    },
+    {
+      "time": 62.0,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "chorus"
+    },
+    {
+      "time": 62.0,
+      "kind": "melody",
+      "strength": 1,
+      "section": "chorus"
+    },
+    {
+      "time": 62.125,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 62.25,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "chorus"
+    },
+    {
+      "time": 62.25,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "chorus"
+    },
+    {
+      "time": 62.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 62.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 62.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 62.375,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 62.375,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "chorus"
+    },
+    {
+      "time": 62.5,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "chorus"
+    },
+    {
+      "time": 62.5,
+      "kind": "snare",
+      "strength": 0.95,
+      "section": "chorus"
+    },
+    {
+      "time": 62.5,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "chorus"
+    },
+    {
+      "time": 62.75,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "chorus"
+    },
+    {
+      "time": 62.75,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "chorus"
+    },
+    {
+      "time": 62.75,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 62.75,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "chorus"
+    },
+    {
+      "time": 62.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 62.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 62.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 63.0,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "chorus"
+    },
+    {
+      "time": 63.0,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "chorus"
+    },
+    {
+      "time": 63.0,
+      "kind": "melody",
+      "strength": 1,
+      "section": "chorus"
+    },
+    {
+      "time": 63.125,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 63.25,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "chorus"
+    },
+    {
+      "time": 63.25,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "chorus"
+    },
+    {
+      "time": 63.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 63.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 63.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 63.375,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 63.375,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "chorus"
+    },
+    {
+      "time": 63.5,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "chorus"
+    },
+    {
+      "time": 63.5,
+      "kind": "snare",
+      "strength": 0.95,
+      "section": "chorus"
+    },
+    {
+      "time": 63.5,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "chorus"
+    },
+    {
+      "time": 63.5,
+      "kind": "tom",
+      "strength": 0.78,
+      "section": "chorus"
+    },
+    {
+      "time": 63.625,
+      "kind": "tom",
+      "strength": 0.78,
+      "section": "chorus"
+    },
+    {
+      "time": 63.75,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "chorus"
+    },
+    {
+      "time": 63.75,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "chorus"
+    },
+    {
+      "time": 63.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 63.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 63.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "chorus"
+    },
+    {
+      "time": 63.75,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 63.75,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "chorus"
+    },
+    {
+      "time": 63.75,
+      "kind": "tom",
+      "strength": 0.78,
+      "section": "chorus"
+    },
+    {
+      "time": 63.875,
+      "kind": "tom",
+      "strength": 0.78,
+      "section": "chorus"
+    },
+    {
+      "time": 64.0,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "verse"
+    },
+    {
+      "time": 64.0,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "verse"
+    },
+    {
+      "time": 64.0,
+      "kind": "melody",
+      "strength": 1,
+      "section": "verse"
+    },
+    {
+      "time": 64.0,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 64.0,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 64.0,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 64.125,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "chorus"
+    },
+    {
+      "time": 64.25,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "verse"
+    },
+    {
+      "time": 64.25,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "verse"
+    },
+    {
+      "time": 64.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 64.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 64.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 64.375,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "verse"
+    },
+    {
+      "time": 64.375,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "verse"
+    },
+    {
+      "time": 64.5,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "verse"
+    },
+    {
+      "time": 64.5,
+      "kind": "snare",
+      "strength": 0.95,
+      "section": "verse"
+    },
+    {
+      "time": 64.5,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "verse"
+    },
+    {
+      "time": 64.75,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "verse"
+    },
+    {
+      "time": 64.75,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "verse"
+    },
+    {
+      "time": 64.75,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "verse"
+    },
+    {
+      "time": 64.75,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "verse"
+    },
+    {
+      "time": 64.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 64.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 64.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 65.0,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "verse"
+    },
+    {
+      "time": 65.0,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "verse"
+    },
+    {
+      "time": 65.0,
+      "kind": "melody",
+      "strength": 1,
+      "section": "verse"
+    },
+    {
+      "time": 65.125,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "verse"
+    },
+    {
+      "time": 65.25,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "verse"
+    },
+    {
+      "time": 65.25,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "verse"
+    },
+    {
+      "time": 65.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 65.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 65.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 65.375,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "verse"
+    },
+    {
+      "time": 65.375,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "verse"
+    },
+    {
+      "time": 65.5,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "verse"
+    },
+    {
+      "time": 65.5,
+      "kind": "snare",
+      "strength": 0.95,
+      "section": "verse"
+    },
+    {
+      "time": 65.5,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "verse"
+    },
+    {
+      "time": 65.75,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "verse"
+    },
+    {
+      "time": 65.75,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "verse"
+    },
+    {
+      "time": 65.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 65.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 65.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 65.75,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "verse"
+    },
+    {
+      "time": 65.75,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "verse"
+    },
+    {
+      "time": 66.0,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "verse"
+    },
+    {
+      "time": 66.0,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "verse"
+    },
+    {
+      "time": 66.0,
+      "kind": "melody",
+      "strength": 1,
+      "section": "verse"
+    },
+    {
+      "time": 66.125,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "verse"
+    },
+    {
+      "time": 66.25,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "verse"
+    },
+    {
+      "time": 66.25,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "verse"
+    },
+    {
+      "time": 66.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 66.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 66.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 66.375,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "verse"
+    },
+    {
+      "time": 66.375,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "verse"
+    },
+    {
+      "time": 66.5,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "verse"
+    },
+    {
+      "time": 66.5,
+      "kind": "snare",
+      "strength": 0.95,
+      "section": "verse"
+    },
+    {
+      "time": 66.5,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "verse"
+    },
+    {
+      "time": 66.75,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "verse"
+    },
+    {
+      "time": 66.75,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "verse"
+    },
+    {
+      "time": 66.75,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "verse"
+    },
+    {
+      "time": 66.75,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "verse"
+    },
+    {
+      "time": 66.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 66.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 66.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 67.0,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "verse"
+    },
+    {
+      "time": 67.0,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "verse"
+    },
+    {
+      "time": 67.0,
+      "kind": "melody",
+      "strength": 1,
+      "section": "verse"
+    },
+    {
+      "time": 67.125,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "verse"
+    },
+    {
+      "time": 67.25,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "verse"
+    },
+    {
+      "time": 67.25,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "verse"
+    },
+    {
+      "time": 67.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 67.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 67.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 67.375,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "verse"
+    },
+    {
+      "time": 67.375,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "verse"
+    },
+    {
+      "time": 67.5,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "verse"
+    },
+    {
+      "time": 67.5,
+      "kind": "snare",
+      "strength": 0.95,
+      "section": "verse"
+    },
+    {
+      "time": 67.5,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "verse"
+    },
+    {
+      "time": 67.75,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "verse"
+    },
+    {
+      "time": 67.75,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "verse"
+    },
+    {
+      "time": 67.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 67.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 67.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "verse"
+    },
+    {
+      "time": 67.75,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "verse"
+    },
+    {
+      "time": 67.75,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "verse"
+    },
+    {
+      "time": 68.0,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "outro"
+    },
+    {
+      "time": 68.0,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "outro"
+    },
+    {
+      "time": 68.0,
+      "kind": "melody",
+      "strength": 1,
+      "section": "outro"
+    },
+    {
+      "time": 68.125,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "verse"
+    },
+    {
+      "time": 68.25,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "outro"
+    },
+    {
+      "time": 68.25,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "outro"
+    },
+    {
+      "time": 68.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "outro"
+    },
+    {
+      "time": 68.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "outro"
+    },
+    {
+      "time": 68.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "outro"
+    },
+    {
+      "time": 68.375,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "outro"
+    },
+    {
+      "time": 68.375,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "outro"
+    },
+    {
+      "time": 68.5,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "outro"
+    },
+    {
+      "time": 68.5,
+      "kind": "snare",
+      "strength": 0.95,
+      "section": "outro"
+    },
+    {
+      "time": 68.5,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "outro"
+    },
+    {
+      "time": 68.75,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "outro"
+    },
+    {
+      "time": 68.75,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "outro"
+    },
+    {
+      "time": 68.75,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "outro"
+    },
+    {
+      "time": 68.75,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "outro"
+    },
+    {
+      "time": 68.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "outro"
+    },
+    {
+      "time": 68.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "outro"
+    },
+    {
+      "time": 68.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "outro"
+    },
+    {
+      "time": 69.0,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "outro"
+    },
+    {
+      "time": 69.0,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "outro"
+    },
+    {
+      "time": 69.0,
+      "kind": "melody",
+      "strength": 1,
+      "section": "outro"
+    },
+    {
+      "time": 69.125,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "outro"
+    },
+    {
+      "time": 69.25,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "outro"
+    },
+    {
+      "time": 69.25,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "outro"
+    },
+    {
+      "time": 69.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "outro"
+    },
+    {
+      "time": 69.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "outro"
+    },
+    {
+      "time": 69.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "outro"
+    },
+    {
+      "time": 69.375,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "outro"
+    },
+    {
+      "time": 69.375,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "outro"
+    },
+    {
+      "time": 69.5,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "outro"
+    },
+    {
+      "time": 69.5,
+      "kind": "snare",
+      "strength": 0.95,
+      "section": "outro"
+    },
+    {
+      "time": 69.5,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "outro"
+    },
+    {
+      "time": 69.75,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "outro"
+    },
+    {
+      "time": 69.75,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "outro"
+    },
+    {
+      "time": 69.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "outro"
+    },
+    {
+      "time": 69.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "outro"
+    },
+    {
+      "time": 69.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "outro"
+    },
+    {
+      "time": 69.75,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "outro"
+    },
+    {
+      "time": 69.75,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "outro"
+    },
+    {
+      "time": 70.0,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "outro"
+    },
+    {
+      "time": 70.0,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "outro"
+    },
+    {
+      "time": 70.0,
+      "kind": "melody",
+      "strength": 1,
+      "section": "outro"
+    },
+    {
+      "time": 70.125,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "outro"
+    },
+    {
+      "time": 70.25,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "outro"
+    },
+    {
+      "time": 70.25,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "outro"
+    },
+    {
+      "time": 70.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "outro"
+    },
+    {
+      "time": 70.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "outro"
+    },
+    {
+      "time": 70.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "outro"
+    },
+    {
+      "time": 70.375,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "outro"
+    },
+    {
+      "time": 70.375,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "outro"
+    },
+    {
+      "time": 70.5,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "outro"
+    },
+    {
+      "time": 70.5,
+      "kind": "snare",
+      "strength": 0.95,
+      "section": "outro"
+    },
+    {
+      "time": 70.5,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "outro"
+    },
+    {
+      "time": 70.75,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "outro"
+    },
+    {
+      "time": 70.75,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "outro"
+    },
+    {
+      "time": 70.75,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "outro"
+    },
+    {
+      "time": 70.75,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "outro"
+    },
+    {
+      "time": 70.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "outro"
+    },
+    {
+      "time": 70.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "outro"
+    },
+    {
+      "time": 70.875,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "outro"
+    },
+    {
+      "time": 71.0,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "outro"
+    },
+    {
+      "time": 71.0,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "outro"
+    },
+    {
+      "time": 71.0,
+      "kind": "melody",
+      "strength": 1,
+      "section": "outro"
+    },
+    {
+      "time": 71.125,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "outro"
+    },
+    {
+      "time": 71.25,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "outro"
+    },
+    {
+      "time": 71.25,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "outro"
+    },
+    {
+      "time": 71.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "outro"
+    },
+    {
+      "time": 71.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "outro"
+    },
+    {
+      "time": 71.25,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "outro"
+    },
+    {
+      "time": 71.375,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "outro"
+    },
+    {
+      "time": 71.375,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "outro"
+    },
+    {
+      "time": 71.5,
+      "kind": "kick",
+      "strength": 0.75,
+      "section": "outro"
+    },
+    {
+      "time": 71.5,
+      "kind": "snare",
+      "strength": 0.95,
+      "section": "outro"
+    },
+    {
+      "time": 71.5,
+      "kind": "hat",
+      "strength": 0.25,
+      "section": "outro"
+    },
+    {
+      "time": 71.5,
+      "kind": "tom",
+      "strength": 0.78,
+      "section": "outro"
+    },
+    {
+      "time": 71.625,
+      "kind": "tom",
+      "strength": 0.78,
+      "section": "outro"
+    },
+    {
+      "time": 71.75,
+      "kind": "hat",
+      "strength": 0.3,
+      "section": "outro"
+    },
+    {
+      "time": 71.75,
+      "kind": "bass",
+      "strength": 0.4,
+      "section": "outro"
+    },
+    {
+      "time": 71.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "outro"
+    },
+    {
+      "time": 71.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "outro"
+    },
+    {
+      "time": 71.75,
+      "kind": "accompaniment",
+      "strength": 0.2,
+      "section": "outro"
+    },
+    {
+      "time": 71.75,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "outro"
+    },
+    {
+      "time": 71.75,
+      "kind": "melody",
+      "strength": 0.82,
+      "section": "outro"
+    },
+    {
+      "time": 71.75,
+      "kind": "tom",
+      "strength": 0.78,
+      "section": "outro"
+    },
+    {
+      "time": 71.875,
+      "kind": "tom",
+      "strength": 0.78,
+      "section": "outro"
+    },
+    {
+      "time": 72.125,
+      "kind": "echo",
+      "strength": 0.12,
+      "section": "outro"
+    }
+  ]
+}

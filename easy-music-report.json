@@ -3,19 +3,9 @@
   "bpm": 120,
   "duration": 74.0,
   "bars": 36,
-  "strokes": 67,
-  "syllables": 28,
-  "lastNote": 69.0,
-  "minimumKeyGap": 0.5,
-  "averageKeysPerSecond": 0.9054054054054054,
+  "musicEvents": 1455,
+  "sampleRate": 32000,
   "peak": 0.8799999999999999,
   "rms": 0.1389556049362367,
-  "phrases": [
-    "토끼야 가자",
-    "바다로 가자",
-    "용궁에 도착",
-    "간은 집에",
-    "두고 왔소",
-    "토끼는 폴짝"
-  ]
+  "source": "composer-instrument-events"
 }

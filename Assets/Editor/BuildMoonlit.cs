@@ -1,6 +1,7 @@
 using System;
 using System.IO;
 using System.Linq;
+using System.Security.Cryptography;
 using UnityEditor;
 using UnityEditor.Animations;
 using UnityEditor.Build.Reporting;
@@ -8,6 +9,9 @@ using UnityEditor.SceneManagement;
 using UnityEngine;
 using Moonlit;
 public static class BuildMoonlit {
+ [Serializable] public class ChartReport {public string generator;public ChartSong[] songs;}
+ [Serializable] public class ChartSong {public string song,source;public bool easy;public float bpm,duration;public string[] phrases;public Stroke[] strokes;public Syllable[] syllables;
+  public ChartSong(RhythmChart chart){song=chart.MusicName;source=chart.timeline.source;easy=chart.easy;bpm=chart.BPM;duration=chart.timeline.duration;phrases=chart.phrases;strokes=chart.strokes.ToArray();syllables=chart.syllables.ToArray();}}
  public static void BuildAll(){Prepare();BuildWeb();}
  public static void Prepare(){
   Directory.CreateDirectory("Assets/Resources/Motions");Directory.CreateDirectory("Assets/Scenes");
@@ -36,19 +40,45 @@ public static class BuildMoonlit {
   Assert(RhythmChart.Keys('아')=="dk","Ah is two physical strokes");Assert(RhythmChart.Keys('값')=="rkqt","Compound final decomposition");Assert(RhythmChart.Keys('왜')=="dho","Compound vowel decomposition");Assert(RhythmChart.Keys('꼬')=="Rh","Shift consonant decomposition");
   Assert(Judgement.Grade(.064f)==2&&Judgement.Grade(.124f)==1&&Judgement.Grade(.184f)==0&&Judgement.Grade(.19f)==-1,"Judgment boundaries");
   var chart=new RhythmChart();var hard=new RhythmChart(false);
+  var export=new ChartReport{generator=SongChartGenerator.Version,songs=new[]{new ChartSong(chart),new ChartSong(hard)}};
+  File.WriteAllText("chart-report.json",JsonUtility.ToJson(export,true));
   string details="";
   foreach(var mode in new[]{chart,hard}){
    for(int i=1;i<mode.strokes.Count;i++)Assert(mode.strokes[i].time>mode.strokes[i-1].time,"Non-monotonic chart");
    var song=AssetDatabase.LoadAssetAtPath<AudioClip>("Assets/Resources/Audio/"+mode.MusicName+".wav");Assert(song&&mode.EndTime+1<song.length,"Chart fits song ending: "+mode.Title);
    foreach(var sy in mode.syllables)Assert(mode.strokes[sy.lastStroke].last&&sy.lastStroke-sy.firstStroke+1==RhythmChart.Keys(sy.glyph[0]).Length,"Physical key group matches syllable");
+   var timeline=mode.timeline;
+   Assert(Mathf.Abs(timeline.duration-song.length)<.01f,"Song event duration matches imported audio");
+   using(var sha=SHA256.Create()){
+    string hash=BitConverter.ToString(sha.ComputeHash(File.ReadAllBytes("Assets/Resources/Audio/"+mode.MusicName+".wav"))).Replace("-","").ToLowerInvariant();
+    Assert(hash==timeline.audioSha256,"Music event file belongs to this exact audio: "+mode.MusicName);
+   }
+   var candidates=SongChartGenerator.Candidates(timeline);
+   foreach(var stroke in mode.strokes)Assert(candidates.Any(e=>Mathf.Abs(e.time-stroke.time)<.0001f&&e.kind==stroke.eventKind),"Every note is an actual instrument attack");
+   for(int i=1;i<mode.strokes.Count;i++){
+    float gap=mode.strokes[i].time-mode.strokes[i-1].time;
+    Assert(gap+.0001f>=SongChartGenerator.Gap(mode.strokes[i-1],mode.strokes[i],mode.easy,mode.Beat),"Typing/rest budget respected");
+    Assert(mode.LateWindow(i-1)+mode.EarlyWindow(i)<gap,"Adjacent judgement windows never overlap");
+   }
+   var repeated=new RhythmChart(mode.easy);
+   Assert(repeated.strokes.Select(x=>x.time).SequenceEqual(mode.strokes.Select(x=>x.time)),"Same song produces a deterministic chart");
    details+=$"{mode.Title}: {mode.BPM} BPM, {mode.strokes.Count} keys, {mode.syllables.Count} syllables, last {mode.EndTime:F3}s / song {song.length:F3}s\n";
   }
   var gaps=chart.strokes.Skip(1).Select((n,i)=>n.time-chart.strokes[i].time).ToArray();
   Assert(chart.strokes.Count<hard.strokes.Count*.3f,"Easy has substantially fewer notes");
-  Assert(gaps.Min()>=.499f&&gaps.Count(g=>g>=.99f)>=20,"Easy has real rests, not only slower BPM");
-  Assert(chart.Window*2<gaps.Min(),"Judgement windows do not overlap");
+  Assert(gaps.Min()>=.499f&&gaps.Count(g=>g>=.99f)>=15,"Easy has real rests and a safe key rate");
+  Assert(gaps.Select(g=>Mathf.RoundToInt(g*1000)).Distinct().Count()>=4,"Easy rhythm has varied note intervals");
+  Assert(chart.strokes.Count(s=>Mathf.Abs(s.time/chart.Beat-Mathf.Round(s.time/chart.Beat))>.1f)>=8,"Easy follows audible offbeats, not only a BPM grid");
+  Assert(chart.Window*2<gaps.Min(),"Easy judgement windows do not overlap");
   Assert(chart.Grade(.099f)==2&&chart.Grade(.179f)==1&&chart.Grade(.239f)==0&&chart.Grade(.241f)==-1,"Easy judgement boundaries");
-  Assert(hard.strokes.Count==301&&Mathf.Abs(hard.EndTime-75.4167f)<.01f,"Original challenge chart preserved");
+  Assert(hard.strokes.Count==301,"Challenge keeps every physical key in the story");
+  var changed=new SongTimeline{schemaVersion=1,bpm=chart.BPM,duration=chart.timeline.duration+.125f,source="test-shifted-audio",song=chart.MusicName,sampleRate=32000,
+   events=chart.timeline.events.Select(e=>new MusicEvent{time=e.time+.125f,strength=e.strength,kind=e.kind,section=e.section}).ToArray()};
+  var shifted=new RhythmChart(true,changed);
+  Assert(shifted.BPM==chart.BPM&&shifted.strokes.Where((s,i)=>Mathf.Abs(s.time-chart.strokes[i].time)>.01f).Count()>chart.strokes.Count/2,"Changing music events changes notes even at the same BPM");
+  bool rejected=false;try{var impossible=new SongTimeline{schemaVersion=1,bpm=120,duration=5,events=new[]{new MusicEvent{time=2,strength=1,kind="melody"}}};new RhythmChart(true,impossible);}catch(InvalidOperationException){rejected=true;}
+  Assert(rejected,"An impossible song/text budget is rejected; no fixed-grid fallback");
+  details+=$"Music-driven chart: easy {gaps.Select(g=>Mathf.RoundToInt(g*1000)).Distinct().Count()} gap lengths, {chart.strokes.Count(s=>Mathf.Abs(s.time/chart.Beat-Mathf.Round(s.time/chart.Beat))>.1f)} offbeat keys; exact audio hashes and same-BPM mutation: PASS\n";
   foreach(var path in Directory.GetFiles("Assets/Resources/Audio/Impacts","*.ogg")){var clip=AssetDatabase.LoadAssetAtPath<AudioClip>(path);Assert(clip&&clip.length<2,"Impact sound short and imported: "+path);}
   for(int i=1;i<=100;i++)Assert(Judgement.Sales(i,100)>=Judgement.Sales(i-1,100),"Monotonic sales");
   var avatar=AssetDatabase.LoadAssetAtPath<GameObject>("Assets/Resources/Scholar.prefab").GetComponent<Animator>().avatar;Assert(avatar.isHuman&&avatar.isValid,"Humanoid");
@@ -61,8 +91,8 @@ public static class BuildMoonlit {
   AssetDatabase.Refresh();
   foreach(var path in Directory.GetFiles("Assets/Resources/Art/Splat","*.png")){var ti=(TextureImporter)AssetImporter.GetAtPath(path);ti.maxTextureSize=256;ti.alphaIsTransparency=true;ti.npotScale=TextureImporterNPOTScale.None;ti.textureCompression=TextureImporterCompression.Uncompressed;ti.SaveAndReimport();}
   foreach(var path in Directory.GetFiles("Assets/Resources/Audio","*",SearchOption.AllDirectories).Where(p=>p.EndsWith(".wav")||p.EndsWith(".ogg"))){var ai=(AudioImporter)AssetImporter.GetAtPath(path);var sample=ai.defaultSampleSettings;sample.loadType=AudioClipLoadType.DecompressOnLoad;sample.compressionFormat=AudioCompressionFormat.Vorbis;sample.quality=path.Contains("Moonlit")?.75f:.95f;sample.preloadAudioData=true;ai.defaultSampleSettings=sample;ai.SaveAndReimport();}
-  PlayerSettings.bundleVersion="0.2.0";AssetDatabase.SaveAssets();BuildWeb();
+  PlayerSettings.bundleVersion="0.3.0";AssetDatabase.SaveAssets();BuildWeb();
  }
- public static void BuildWeb(){Validate();Directory.CreateDirectory("docs");var report=BuildPipeline.BuildPlayer(new BuildPlayerOptions{scenes=new[]{"Assets/Scenes/MoonlitStudy.unity"},locationPathName="docs",target=BuildTarget.WebGL,options=BuildOptions.None});File.WriteAllText("build-report.txt",report.summary.result+"\n"+report.summary.totalSize+" bytes\n"+report.summary.totalTime);if(report.summary.result!=BuildResult.Succeeded)throw new Exception("Web build failed");File.WriteAllText("docs/.nojekyll","");Debug.Log("MOONLIT_WEB_OK");}
+ public static void BuildWeb(){PlayerSettings.bundleVersion="0.3.0";Validate();Directory.CreateDirectory("docs");var report=BuildPipeline.BuildPlayer(new BuildPlayerOptions{scenes=new[]{"Assets/Scenes/MoonlitStudy.unity"},locationPathName="docs",target=BuildTarget.WebGL,options=BuildOptions.None});File.WriteAllText("build-report.txt",report.summary.result+"\n"+report.summary.totalSize+" bytes\n"+report.summary.totalTime);if(report.summary.result!=BuildResult.Succeeded)throw new Exception("Web build failed");File.WriteAllText("docs/.nojekyll","");Debug.Log("MOONLIT_WEB_OK");}
  public static void BuildDesktop(){var r=BuildPipeline.BuildPlayer(new BuildPlayerOptions{scenes=new[]{"Assets/Scenes/MoonlitStudy.unity"},locationPathName="Builds/Windows/Moonlit.exe",target=BuildTarget.StandaloneWindows64,options=BuildOptions.Development});if(r.summary.result!=BuildResult.Succeeded)throw new Exception("Desktop build failed");}
 }

@@ -26,3 +26,7 @@
 /Assets/JMO Assets.meta
 /Assets/Resources/MoonlitFX/
 /Assets/Resources/MoonlitFX.meta
+
+# Python music/chart tools
+__pycache__/
+*.py[cod]

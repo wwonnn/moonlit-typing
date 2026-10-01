@@ -30,7 +30,7 @@ namespace Moonlit {
    // Book content is separately placed at measured final glyph slots; no prewritten text.
    var inputPaper=Panel(root,"Input backdrop",190,707,1220,174,new Color(.96f,.91f,.81f,.98f));if(art){inputPaper.sprite=Sprite.Create(art,new Rect(art.width*(875f/1774),art.height*(517f/887),art.width*(895f/1774),art.height*(200f/887)),new Vector2(.5f,.5f),100);}
    phraseText=Text(root,"붓을 들고, 박자에 맞춰",340,731,920,22,16,ink);
-   subline=Text(root,"키 하나에 한 박자 · 글자 하나가 책의 한 줄로",340,833,920,24,16,ink);
+   subline=Text(root,"음악에 맞춰 키를 누르면, 글자가 책으로",340,833,920,24,16,ink);
    phraseText.alignment=TextAnchor.MiddleCenter;subline.alignment=TextAnchor.MiddleCenter;
    judge=Text(root,"",200,588,385,65,42,gold,true);scoreText=Text(root,"000000",44,111,300,32,22,paper);
    Panel(root,"Rhythm track",220,667,1160,32,new Color(.035f,.06f,.09f,.85f));Panel(root,"Judgement line",797,660,6,46,gold);beatLabel=Text(root,"박자",749,637,100,25,14,paper);beatLabel.alignment=TextAnchor.MiddleCenter;
@@ -51,9 +51,9 @@ namespace Moonlit {
   public void Menu(bool easy){ClearModal();Panel(overlay,"Card",365,100,870,715,new Color(.065f,.09f,.13f,.98f));Text(overlay,"달빛 인쇄소",424,137,750,73,52,paper,true);
    Text(overlay,"한 글자씩, 신나게 써 내려가는 달밤",428,221,770,37,23,gold);
    var a=Button(overlay,easy?"선택됨 · 쉬움 120 BPM":"쉬움 · 달빛 잔치",425,279,358,73,()=>onDifficulty?.Invoke(true));
-   var b=Button(overlay,easy?"도전 · 기존 144 BPM":"선택됨 · 도전 144 BPM",804,279,360,73,()=>onDifficulty?.Invoke(false));
+   var b=Button(overlay,easy?"도전 · 달빛 인쇄소":"선택됨 · 도전 144 BPM",804,279,360,73,()=>onDifficulty?.Invoke(false));
    a.GetComponent<Image>().color=easy?gold:new Color(.58f,.64f,.67f);b.GetComponent<Image>().color=easy?new Color(.58f,.64f,.67f):gold;
-   Text(overlay,easy?"새 곡 74초 · 28글자 · 67번 입력\n키 간격 최소 0.5초 · 글자마다 쉬는 박자":"기존 곡 84초 · 122글자 · 301번 입력\n빠른 연속 입력에 도전하는 모드",432,382,740,82,24,paper);
+   Text(overlay,easy?"달빛 잔치 74초 · 28글자 · 67번 입력\n키 간격 최소 0.5초 · 멜로디를 따라 톡톡!":"달빛 인쇄소 84초 · 122글자 · 301번 입력\n곡의 연주에 맞춘 연속 입력",432,382,740,82,24,paper);
    Text(overlay,"한 글자 = 하나의 리듬 묶음\n예: 아  →  D(ㅇ), K(ㅏ)를 각각 박자에 맞춰 입력\n완성된 글자만 책의 다음 칸으로 날아갑니다.",432,475,740,105,21,new Color(.73f,.8f,.82f));
    Button(overlay,"집필 시작",425,608,358,68,()=>onStart?.Invoke());Button(overlay,"자동 연주 보기",804,608,360,68,()=>onDemo?.Invoke());
    Text(overlay,"ENTER 시작 · F2 자동 연주 · ESC 일시정지",432,715,740,30,17,new Color(.6f,.68f,.73f));

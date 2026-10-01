@@ -20,7 +20,7 @@ namespace Moonlit {
   [DllImport("__Internal")] static extern double MoonlitNow();
 #endif
   public float SongTime => mode==Mode.Paused ? pausedTime : (float)(AudioSettings.dspTime-startDsp);
-  string BestKey=>easy?"bestScoreEasy":"bestScore";
+  string BestKey=>easy?"bestScoreMusicV1Easy":"bestScoreMusicV1Challenge";
   public void Start() {
    Application.targetFrameRate=60; QualitySettings.vSyncCount=0;
    Screen.sleepTimeout=SleepTimeout.NeverSleep; Input.imeCompositionMode=IMECompositionMode.Off;
@@ -52,7 +52,7 @@ namespace Moonlit {
    ui.combo.text=auto?"자동 연주":"0 연타";ui.scoreText.text="000000";ui.title.text=chart.Title+(auto?" · 자동":"");ui.title.fontSize=auto?26:32;
    ui.SetPhrase(chart,0,0,0);mode=Mode.Playing;startDsp=AudioSettings.dspTime+4*chart.Beat;
    music.PlayScheduled(startDsp);stage.Motion("Writing");if(stage.actor)stage.actor.speed=easy?1:1.18f;
-   reactionUntil=0;celebrationPending=false;Debug.Log($"MOONLIT_START easy={easy} demo={auto} notes={chart.strokes.Count}");
+   reactionUntil=0;celebrationPending=false;Debug.Log($"MOONLIT_START easy={easy} demo={auto} notes={chart.strokes.Count} chart={SongChartGenerator.Version} source={chart.timeline.source}");
   }
   void Update() {
    if(ui==null)return;if(mode!=Mode.Paused)ui.Tick(Time.unscaledDeltaTime);
@@ -66,7 +66,7 @@ namespace Moonlit {
    float time=SongTime;int beat=Mathf.FloorToInt(time/chart.Beat);
    if(beat!=lastBeat){lastBeat=beat;ui.Beat();if(time<0){Play(countSound,.6f);ui.Feedback((-beat).ToString(),ui.paper,0,new Vector2(800,680),false);}else if(time<chart.Beat*.2f)ui.Feedback("시작!",ui.gold,0,new Vector2(800,680),true);}
    if(demo){while(cursor<chart.strokes.Count&&time>=chart.strokes[cursor].time)Resolve(2);}
-   else {while(cursor<chart.strokes.Count&&time-offset>chart.strokes[cursor].time+chart.Window)Resolve(-1);}
+   else {while(cursor<chart.strokes.Count&&time-offset>chart.strokes[cursor].time+chart.LateWindow(cursor))Resolve(-1);}
    ui.Rhythm(chart,cursor,time-offset);
    ui.progress.rectTransform.sizeDelta=new Vector2(370*Mathf.Clamp01(time/music.clip.length),5);
    ui.progressText.text=$"{chart.BPM:0} BPM   {Mathf.Max(0,time):00.0} / {music.clip.length:00.0}초";
@@ -89,7 +89,7 @@ namespace Moonlit {
 #endif
    Press(key,stamp);
   }
-  void Press(string key,float time){if(cursor>=chart.strokes.Count||time<0)return;var target=chart.strokes[cursor];float delta=time-target.time;if(Mathf.Abs(delta)>chart.Window)return;if(key!=target.key){Resolve(-1);return;}Resolve(chart.Grade(delta));}
+  void Press(string key,float time){if(time<0)return;while(cursor<chart.strokes.Count&&time>chart.strokes[cursor].time+chart.LateWindow(cursor))Resolve(-1);if(cursor>=chart.strokes.Count)return;var target=chart.strokes[cursor];float delta=time-target.time;if(delta < -chart.EarlyWindow(cursor)||delta > chart.LateWindow(cursor))return;if(key!=target.key){Resolve(-1);return;}Resolve(chart.Grade(delta));}
   void Resolve(int grade) {
    if(cursor>=chart.strokes.Count)return;var n=chart.strokes[cursor];Vector2 source=ui.SyllableSource(chart,n.syllable);
    if(grade>=0){
