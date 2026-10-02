@@ -1,0 +1,294 @@
+{
+  "revision": "brush-performance-v1",
+  "audioSha256": "e83792b84488f9cdac039295a9c6c4e8111bd47dbd24e52f17e10769f903cd9f",
+  "analysisAudioSha256": "d8765c3f39d56e41a715e19b586c35acf8e966adeb4884647ee87a432fb7f1f0",
+  "tailSource": "audio-energy-release",
+  "notes": [
+    {
+      "index": 0,
+      "time": -1,
+      "endTime": 2.28,
+      "articulation": "hold",
+      "syncopated": false
+    },
+    {
+      "index": 1,
+      "time": 2.98,
+      "endTime": 0,
+      "articulation": "tap",
+      "syncopated": true
+    },
+    {
+      "index": 2,
+      "time": 3.39,
+      "endTime": 0,
+      "articulation": "accent",
+      "syncopated": true
+    },
+    {
+      "index": 4,
+      "time": -1,
+      "endTime": 0,
+      "articulation": "accent",
+      "syncopated": false
+    },
+    {
+      "index": 12,
+      "time": -1,
+      "endTime": 0,
+      "articulation": "accent",
+      "syncopated": false
+    },
+    {
+      "index": 19,
+      "time": -1,
+      "endTime": 0,
+      "articulation": "accent",
+      "syncopated": false
+    },
+    {
+      "index": 20,
+      "time": -1,
+      "endTime": 16.63,
+      "articulation": "hold",
+      "syncopated": false
+    },
+    {
+      "index": 29,
+      "time": -1,
+      "endTime": 21.92,
+      "articulation": "hold",
+      "syncopated": false
+    },
+    {
+      "index": 36,
+      "time": -1,
+      "endTime": 0,
+      "articulation": "accent",
+      "syncopated": false
+    },
+    {
+      "index": 37,
+      "time": -1,
+      "endTime": 29.24,
+      "articulation": "hold",
+      "syncopated": false
+    },
+    {
+      "index": 54,
+      "time": -1,
+      "endTime": 0,
+      "articulation": "accent",
+      "syncopated": false
+    },
+    {
+      "index": 56,
+      "time": -1,
+      "endTime": 42.95,
+      "articulation": "hold",
+      "syncopated": false
+    },
+    {
+      "index": 71,
+      "time": -1,
+      "endTime": 0,
+      "articulation": "accent",
+      "syncopated": false
+    },
+    {
+      "index": 72,
+      "time": -1,
+      "endTime": 0,
+      "articulation": "accent",
+      "syncopated": false
+    },
+    {
+      "index": 76,
+      "time": -1,
+      "endTime": 57.2,
+      "articulation": "hold",
+      "syncopated": false
+    },
+    {
+      "index": 89,
+      "time": -1,
+      "endTime": 0,
+      "articulation": "accent",
+      "syncopated": false
+    },
+    {
+      "index": 91,
+      "time": -1,
+      "endTime": 0,
+      "articulation": "accent",
+      "syncopated": false
+    },
+    {
+      "index": 106,
+      "time": -1,
+      "endTime": 77.76,
+      "articulation": "hold",
+      "syncopated": false
+    },
+    {
+      "index": 107,
+      "time": -1,
+      "endTime": 0,
+      "articulation": "accent",
+      "syncopated": false
+    },
+    {
+      "index": 108,
+      "time": -1,
+      "endTime": 80.96,
+      "articulation": "hold",
+      "syncopated": false
+    },
+    {
+      "index": 127,
+      "time": -1,
+      "endTime": 0,
+      "articulation": "accent",
+      "syncopated": false
+    },
+    {
+      "index": 136,
+      "time": -1,
+      "endTime": 100.66,
+      "articulation": "hold",
+      "syncopated": false
+    },
+    {
+      "index": 144,
+      "time": -1,
+      "endTime": 0,
+      "articulation": "accent",
+      "syncopated": false
+    },
+    {
+      "index": 162,
+      "time": -1,
+      "endTime": 0,
+      "articulation": "accent",
+      "syncopated": false
+    },
+    {
+      "index": 166,
+      "time": -1,
+      "endTime": 121.69,
+      "articulation": "hold",
+      "syncopated": false
+    },
+    {
+      "index": 184,
+      "time": -1,
+      "endTime": 0,
+      "articulation": "accent",
+      "syncopated": false
+    },
+    {
+      "index": 187,
+      "time": -1,
+      "endTime": 0,
+      "articulation": "accent",
+      "syncopated": false
+    },
+    {
+      "index": 191,
+      "time": -1,
+      "endTime": 138.15,
+      "articulation": "hold",
+      "syncopated": false
+    },
+    {
+      "index": 204,
+      "time": -1,
+      "endTime": 0,
+      "articulation": "accent",
+      "syncopated": false
+    },
+    {
+      "index": 212,
+      "time": -1,
+      "endTime": 154.15,
+      "articulation": "hold",
+      "syncopated": false
+    },
+    {
+      "index": 222,
+      "time": -1,
+      "endTime": 161.72,
+      "articulation": "hold",
+      "syncopated": false
+    },
+    {
+      "index": 223,
+      "time": -1,
+      "endTime": 0,
+      "articulation": "accent",
+      "syncopated": false
+    }
+  ],
+  "sections": [
+    {
+      "start": 1.7599999904632568,
+      "end": 16.139999389648438,
+      "label": "붓 긋기 · 엇박으로 타닥"
+    },
+    {
+      "start": 16.139999389648438,
+      "end": 28.719999313354492,
+      "label": "꾹—탁 · 가난해도 신나게"
+    },
+    {
+      "start": 28.719999313354492,
+      "end": 41.88999938964844,
+      "label": "타닥! · 제비의 발걸음"
+    },
+    {
+      "start": 41.88999938964844,
+      "end": 55.189998626708984,
+      "label": "숨 고르기 · 작은 제비"
+    },
+    {
+      "start": 55.189998626708984,
+      "end": 67.4000015258789,
+      "label": "툭탁 · 정성껏 돌보기"
+    },
+    {
+      "start": 67.4000015258789,
+      "end": 80.41999816894531,
+      "label": "길게 긋고 · 탁!"
+    },
+    {
+      "start": 80.41999816894531,
+      "end": 94.87999725341797,
+      "label": "힘차게 · 박씨 한 알"
+    },
+    {
+      "start": 94.87999725341797,
+      "end": 106.76000213623047,
+      "label": "느긋하게 · 자라나는 박"
+    },
+    {
+      "start": 106.76000213623047,
+      "end": 117.37000274658203,
+      "label": "가볍게 · 타닥"
+    },
+    {
+      "start": 117.37000274658203,
+      "end": 132.14999389648438,
+      "label": "꾹—탁 · 슬근슬근"
+    },
+    {
+      "start": 132.14999389648438,
+      "end": 149.02000427246094,
+      "label": "팡! · 보화가 쏟아져"
+    },
+    {
+      "start": 149.02000427246094,
+      "end": 165.57598639455782,
+      "label": "함께 · 마지막 도장"
+    }
+  ]
+}

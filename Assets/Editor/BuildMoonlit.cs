@@ -10,8 +10,8 @@ using UnityEngine;
 using Moonlit;
 public static class BuildMoonlit {
  [Serializable] public class ChartReport {public string generator;public ChartSong[] songs;}
- [Serializable] public class ChartSong {public string song,source,stageId,title,storyTitle;public bool easy;public float bpm,duration;public string[] phrases;public Stroke[] strokes;public Syllable[] syllables;
-  public ChartSong(RhythmChart chart){stageId=chart.stage.id;title=chart.stage.title;storyTitle=chart.stage.storyTitle;song=chart.MusicName;source=chart.timeline.source;easy=chart.easy;bpm=chart.BPM;duration=chart.timeline.duration;phrases=chart.phrases;strokes=chart.strokes.ToArray();syllables=chart.syllables.ToArray();}}
+ [Serializable] public class ChartSong {public string song,source,stageId,title,storyTitle,performanceRevision;public bool easy;public float bpm,duration;public string[] phrases;public Stroke[] strokes;public Syllable[] syllables;
+  public ChartSong(RhythmChart chart){performanceRevision=chart.performance?.revision??"tap-only";stageId=chart.stage.id;title=chart.stage.title;storyTitle=chart.stage.storyTitle;song=chart.MusicName;source=chart.timeline.source;easy=chart.easy;bpm=chart.BPM;duration=chart.timeline.duration;phrases=chart.phrases;strokes=chart.strokes.ToArray();syllables=chart.syllables.ToArray();}}
  public static void BuildAll(){Prepare();BuildWeb();}
  public static void Prepare(){
   Directory.CreateDirectory("Assets/Resources/Motions");Directory.CreateDirectory("Assets/Scenes");
@@ -64,6 +64,22 @@ public static class BuildMoonlit {
    Assert(repeated.strokes.Select(x=>x.time).SequenceEqual(mode.strokes.Select(x=>x.time)),"Same song produces a deterministic chart");
    details+=$"{mode.Title}: {mode.BPM} BPM, {mode.strokes.Count} keys, {mode.syllables.Count} syllables, last {mode.EndTime:F3}s / song {song.length:F3}s\n";
   }
+  Assert(chart.strokes.All(n=>n.articulation=="tap"),"Tutorial remains tap-only");
+  var holds=hard.strokes.Where(n=>n.articulation=="hold").ToArray();
+  Assert(holds.Length==13&&hard.strokes.Count(n=>n.articulation=="accent")==18,"Authored full-song hold/accent arrangement");
+  Assert(hard.strokes[0].articulation=="hold"&&hard.strokes[1].syncopated&&hard.strokes[2].syncopated,"Opening held brush answers with offbeat pair");
+  for(int i=0;i<hard.strokes.Count;i++){var n=hard.strokes[i];if(n.articulation!="hold")continue;
+   Assert(!n.last&&n.endTime>n.time&&n.endTime+hard.ReleaseWindow(i)<hard.strokes[i+1].time-hard.EarlyWindow(i+1),"Hold tail and next key windows are disjoint");
+   var held=new HoldJudgement(n,2,hard.ReleaseWindow(i));
+   Assert(held.Matches(n.key.ToLower())&&held.Release(n.endTime)==2,"Physical key identity and exact release");
+   Assert(held.Release(n.time+.05f)==-1,"A tap cannot clear a hold");
+   Assert(held.Release(n.endTime+held.releaseWindow+.01f)==-1&&held.Expired(n.endTime+held.releaseWindow+.01f),"Late or missing release fails");
+   var imperfect=new HoldJudgement(n,1,hard.ReleaseWindow(i));Assert(imperfect.Release(n.endTime)==1,"Tail cannot improve an inaccurate head");
+   held.needsGrip=true;Assert(held.Release(n.endTime)==-1,"Focus loss cannot leave a phantom held key");held.needsGrip=false;Assert(held.Release(n.endTime)==2,"Fresh grip can resume a paused hold");
+  }
+  Assert(Mathf.Approximately(MoonlitGame.SfxGain,1.12f),"Sound effects raised 12 percent");
+  var brushClip=Resources.Load<AudioClip>("Audio/BrushFriction");Assert(brushClip&&Mathf.Abs(brushClip.length-2)<.01f,"Loopable brush friction imported");
+  details+="Hold heads, release bounds, early break, timeout, Shift identity, paused grip, 13 holds / 18 accents / opening offbeats, SFX +12%: PASS\n";
   var gaps=chart.strokes.Skip(1).Select((n,i)=>n.time-chart.strokes[i].time).ToArray();
   Assert(chart.strokes.Count<hard.strokes.Count*.3f,"Easy has substantially fewer notes");
   Assert(gaps.Min()>=.499f&&gaps.Count(g=>g>=.99f)>=15,"Easy has real rests and a safe key rate");
@@ -97,8 +113,8 @@ public static class BuildMoonlit {
   AssetDatabase.Refresh();
   foreach(var path in Directory.GetFiles("Assets/Resources/Art/Splat","*.png")){var ti=(TextureImporter)AssetImporter.GetAtPath(path);ti.maxTextureSize=256;ti.alphaIsTransparency=true;ti.npotScale=TextureImporterNPOTScale.None;ti.textureCompression=TextureImporterCompression.Uncompressed;ti.SaveAndReimport();}
   foreach(var path in Directory.GetFiles("Assets/Resources/Audio","*",SearchOption.AllDirectories).Where(p=>p.EndsWith(".wav")||p.EndsWith(".ogg")||p.EndsWith(".mp3"))){var ai=(AudioImporter)AssetImporter.GetAtPath(path);var sample=ai.defaultSampleSettings;sample.loadType=AudioClipLoadType.DecompressOnLoad;sample.compressionFormat=AudioCompressionFormat.Vorbis;sample.quality=path.Contains("Moonlit")?.75f:.95f;sample.preloadAudioData=true;ai.defaultSampleSettings=sample;ai.SaveAndReimport();}
-  PlayerSettings.bundleVersion="0.4.0";AssetDatabase.SaveAssets();BuildWeb();
+  PlayerSettings.bundleVersion="0.5.0";AssetDatabase.SaveAssets();BuildWeb();
  }
- public static void BuildWeb(){PlayerSettings.bundleVersion="0.4.0";Validate();Directory.CreateDirectory("docs");var report=BuildPipeline.BuildPlayer(new BuildPlayerOptions{scenes=new[]{"Assets/Scenes/MoonlitStudy.unity"},locationPathName="docs",target=BuildTarget.WebGL,options=BuildOptions.None});File.WriteAllText("build-report.txt",report.summary.result+"\n"+report.summary.totalSize+" bytes\n"+report.summary.totalTime);if(report.summary.result!=BuildResult.Succeeded)throw new Exception("Web build failed");File.WriteAllText("docs/.nojekyll","");Debug.Log("MOONLIT_WEB_OK");}
+ public static void BuildWeb(){PlayerSettings.bundleVersion="0.5.0";Validate();Directory.CreateDirectory("docs");var report=BuildPipeline.BuildPlayer(new BuildPlayerOptions{scenes=new[]{"Assets/Scenes/MoonlitStudy.unity"},locationPathName="docs",target=BuildTarget.WebGL,options=BuildOptions.None});File.WriteAllText("build-report.txt",report.summary.result+"\n"+report.summary.totalSize+" bytes\n"+report.summary.totalTime);if(report.summary.result!=BuildResult.Succeeded)throw new Exception("Web build failed");File.WriteAllText("docs/.nojekyll","");Debug.Log("MOONLIT_WEB_OK");}
  public static void BuildDesktop(){var r=BuildPipeline.BuildPlayer(new BuildPlayerOptions{scenes=new[]{"Assets/Scenes/MoonlitStudy.unity"},locationPathName="Builds/Windows/Moonlit.exe",target=BuildTarget.StandaloneWindows64,options=BuildOptions.Development});if(r.summary.result!=BuildResult.Succeeded)throw new Exception("Desktop build failed");}
 }

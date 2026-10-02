@@ -9,7 +9,7 @@ namespace Moonlit {
  }
  [Serializable] public class SongTimeline {
   public int schemaVersion, sampleRate;
-  public string song, source, audioSha256;
+  public string song, source, audioSha256, analysisAudioSha256;
   public float bpm, duration;
   public MusicEvent[] events;
   public static SongTimeline Load(string song) {

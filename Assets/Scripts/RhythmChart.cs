@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 
 namespace Moonlit {
- [Serializable] public class Stroke { public string key; public string jamo; public float time; public int syllable; public int phrase; public bool last; public string eventKind, section; public float strength; }
+ [Serializable] public class Stroke { public string key; public string jamo; public float time; public int syllable; public int phrase; public bool last; public string eventKind, section; public float strength; public string articulation="tap"; public float endTime; public bool syncopated; }
  [Serializable] public class Syllable { public string glyph; public int phrase; public bool space; public int firstStroke; public int lastStroke; }
  public class RhythmChart {
   public readonly int stageIndex;
   public readonly StageDefinition stage;
   public bool easy=>stage.tutorial;
   public readonly SongTimeline timeline;
+  public PerformanceData performance;
   public float BPM=>timeline.bpm;
   public float Beat=>60f/BPM;
   public float Window=>easy?.24f:Judgement.Window;
@@ -37,11 +38,12 @@ namespace Moonlit {
      sy.lastStroke=strokes.Count-1;strokes[sy.lastStroke].last=true;
     }
    }
-   SongChartGenerator.Schedule(strokes,timeline,easy);
+   SongChartGenerator.Schedule(strokes,timeline,easy);NotePerformance.Apply(this);
   }
   // Adjacent timing windows meet at their midpoint, including uneven rhythms.
-  public float EarlyWindow(int index)=>index==0?Window:Mathf.Min(Window,(strokes[index].time-strokes[index-1].time)*.49f);
+  public float EarlyWindow(int index)=>index==0?Window:Mathf.Min(Window,(strokes[index].time-(strokes[index-1].articulation=="hold"?strokes[index-1].endTime:strokes[index-1].time))*.49f);
   public float LateWindow(int index)=>index+1==strokes.Count?Window:Mathf.Min(Window,(strokes[index+1].time-strokes[index].time)*.49f);
+  public float ReleaseWindow(int index)=>Mathf.Min(.24f,(strokes[index+1].time-strokes[index].endTime)*.45f);
   public float EndTime=>strokes.Count==0?0:strokes[strokes.Count-1].time;
  }
  public static class Judgement {
