@@ -32,7 +32,7 @@ namespace Moonlit {
    phraseText=Text(root,"붓을 들고, 박자에 맞춰",340,731,920,22,16,ink);
    subline=Text(root,"음악에 맞춰 키를 누르면, 글자가 책으로",340,833,920,24,16,ink);
    phraseText.alignment=TextAnchor.MiddleCenter;subline.alignment=TextAnchor.MiddleCenter;
-   judge=Text(root,"",590,564,420,43,32,gold,true);judge.alignment=TextAnchor.MiddleCenter;timingHint=Text(root,"",590,605,420,24,17,paper);timingHint.alignment=TextAnchor.MiddleCenter;scoreText=Text(root,"000000",44,111,300,32,22,paper);
+   judge=Text(root,"",590,564,420,43,32,gold,true);judge.alignment=TextAnchor.MiddleCenter;timingHint=Text(root,"",590,605,420,24,17,paper);timingHint.alignment=TextAnchor.MiddleCenter;var judgeBorder=judge.gameObject.AddComponent<Outline>();judgeBorder.effectColor=new Color(.025f,.04f,.06f,.95f);judgeBorder.effectDistance=new Vector2(2,-2);var hintBorder=timingHint.gameObject.AddComponent<Outline>();hintBorder.effectColor=new Color(.025f,.04f,.06f,.95f);hintBorder.effectDistance=new Vector2(1,-1);scoreText=Text(root,"000000",44,111,300,32,22,paper);
    Panel(root,"Rhythm track",220,667,1160,32,new Color(.035f,.06f,.09f,.85f));Panel(root,"Judgement line",797,660,6,46,gold);beatLabel=Text(root,"박자",749,637,100,25,14,paper);beatLabel.alignment=TextAnchor.MiddleCenter;
    for(int i=0;i<18;i++){
     var tail=Panel(root,"Held brush ribbon",0,676,100,11,blue);tail.gameObject.SetActive(false);noteTails.Add(tail);
@@ -42,7 +42,7 @@ namespace Moonlit {
     var badge=Text(root,"",0,688,64,19,12,paper,true);badge.alignment=TextAnchor.MiddleCenter;badge.gameObject.SetActive(false);noteBadges.Add(badge);
    }
    gestureLabel=Text(root,"",45,646,320,23,15,paper);
-   holdLabel=Text(root,"",1050,607,330,27,18,blue,true);holdLabel.alignment=TextAnchor.MiddleRight;holdLabel.gameObject.SetActive(false);
+   holdLabel=Text(root,"",1050,607,330,27,18,blue,true);holdLabel.alignment=TextAnchor.MiddleRight;var holdBorder=holdLabel.gameObject.AddComponent<Outline>();holdBorder.effectColor=new Color(.025f,.04f,.06f,.95f);holdBorder.effectDistance=new Vector2(1,-1);holdLabel.gameObject.SetActive(false);
    brushFill=Panel(root,"Growing ink stroke",0,818,0,5,ink);brushFill.gameObject.SetActive(false);
    for(int i=0;i<6;i++){var label=Text(root,"",0,619,100,32,22,paper,true);label.alignment=TextAnchor.MiddleCenter;groupLabels.Add(label);groupLines.Add(Panel(root,"Syllable note group",0,653,100,3,gold));}
    fxRoot=Panel(root,"Effects",0,0,1600,900,Color.clear).rectTransform;fxRoot.GetComponent<Image>().raycastTarget=false;
