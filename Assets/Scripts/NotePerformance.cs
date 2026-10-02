@@ -33,7 +33,7 @@ namespace Moonlit {
    for(int i=0;i<chart.strokes.Count;i++){
     var n=chart.strokes[i];
     if(n.articulation!="tap"&&n.articulation!="hold"&&n.articulation!="accent")throw new InvalidOperationException("Unknown note articulation");
-    if(i>0&&n.time-chart.strokes[i-1].time+.0001f<SongChartGenerator.Gap(chart.strokes[i-1],n,false,chart.Beat))throw new InvalidOperationException("Arrangement violates typing budget");
+    if(i>0&&n.time-chart.strokes[i-1].time+.0001f<SongChartGenerator.Gap(chart.strokes[i-1],n,false,chart.Beat,chart.stage.difficulty))throw new InvalidOperationException("Arrangement violates typing budget");
     if(n.articulation=="hold"){
      if(n.last||i+1>=chart.strokes.Count||n.endTime-n.time<.449f||chart.strokes[i+1].time-n.endTime<.32f)throw new InvalidOperationException("Unsafe hold/letter completion overlap");
      if(float.IsNaN(n.endTime)||float.IsInfinity(n.endTime)||n.endTime>=chart.timeline.duration)throw new InvalidOperationException("Invalid audio release time");

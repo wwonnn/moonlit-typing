@@ -1,0 +1,2704 @@
+{
+  "schemaVersion": 1,
+  "song": "DoorClicks",
+  "source": "audio-spectral-flux-v2",
+  "bpm": 101.69,
+  "tempoCandidates": [
+    [
+      101.69,
+      0.009034
+    ],
+    [
+      103.45,
+      0.007193
+    ],
+    [
+      100.0,
+      0.00614
+    ],
+    [
+      136.36,
+      0.004759
+    ],
+    [
+      105.26,
+      0.004482
+    ],
+    [
+      98.36,
+      0.004003
+    ],
+    [
+      133.33,
+      0.003973
+    ],
+    [
+      139.53,
+      0.00366
+    ]
+  ],
+  "duration": 116.01598639455783,
+  "sampleRate": 44100,
+  "audioSha256": "b46a919993c0c75ff66353b44ef66d629aa6127faa3491b13699ee9d81a3c78d",
+  "events": [
+    {
+      "time": 0.0,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 0.38,
+      "strength": 0.9064,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 0.48,
+      "strength": 0.8855,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 0.61,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 0.9,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 1.14,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 1.6,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 1.74,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 2.04,
+      "strength": 0.9014,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 2.15,
+      "strength": 0.981,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 2.61,
+      "strength": 0.9024,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 2.9,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 3.5,
+      "strength": 0.8613,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 3.95,
+      "strength": 0.715,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 4.09,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 4.39,
+      "strength": 0.7277,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 4.58,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 4.96,
+      "strength": 0.8925,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 5.22,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 5.42,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 5.57,
+      "strength": 0.8769,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 5.85,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 6.29,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 6.74,
+      "strength": 0.7784,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 6.97,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 7.33,
+      "strength": 0.8627,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 7.62,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 8.05,
+      "strength": 0.8099,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 8.21,
+      "strength": 0.8509,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 8.52,
+      "strength": 0.8375,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 8.79,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 9.09,
+      "strength": 0.8058,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 9.67,
+      "strength": 0.9389,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 9.94,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 10.26,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 10.55,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 11.16,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 11.44,
+      "strength": 0.8685,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 11.73,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 12.0,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 12.33,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 12.91,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 13.24,
+      "strength": 0.8288,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 13.36,
+      "strength": 0.7272,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 13.49,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 13.78,
+      "strength": 0.9801,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 14.09,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 14.44,
+      "strength": 0.9493,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 14.68,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 14.93,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 15.05,
+      "strength": 0.9195,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 15.26,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 15.86,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 16.42,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 17.03,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 17.62,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 17.95,
+      "strength": 0.9845,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 18.19,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 18.51,
+      "strength": 0.9727,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 18.79,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 19.27,
+      "strength": 0.956,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 19.39,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 19.68,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 19.94,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 20.26,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 20.42,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 20.56,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 20.84,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 21.14,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 21.24,
+      "strength": 0.7317,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 21.58,
+      "strength": 0.9817,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 21.7,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 22.51,
+      "strength": 0.9291,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 22.66,
+      "strength": 0.7965,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 22.77,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 22.88,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 23.2,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 23.47,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 24.05,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 24.68,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 24.97,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 25.27,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 25.55,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 25.85,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 26.31,
+      "strength": 0.975,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 26.44,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 26.59,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 27.02,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 27.16,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 27.46,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 27.61,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 27.75,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 27.92,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 28.16,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 28.51,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 28.75,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 29.06,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 29.23,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 29.38,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 29.7,
+      "strength": 0.8841,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 29.82,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 29.97,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 30.08,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 30.23,
+      "strength": 0.889,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 30.57,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 30.86,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 31.12,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 31.28,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 31.41,
+      "strength": 0.9161,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 31.56,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 31.75,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 31.92,
+      "strength": 0.9605,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 32.05,
+      "strength": 0.8674,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 32.18,
+      "strength": 0.9878,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 32.29,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 32.63,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 32.9,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 33.22,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 33.51,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 34.1,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 34.4,
+      "strength": 0.8693,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 34.53,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 34.65,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 34.96,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 35.17,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 35.27,
+      "strength": 0.9924,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 35.57,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 35.72,
+      "strength": 0.9645,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 35.84,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 35.97,
+      "strength": 0.8941,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 36.17,
+      "strength": 0.9346,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 36.3,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 36.41,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 36.7,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 36.81,
+      "strength": 0.7417,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 37.02,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 37.15,
+      "strength": 0.8912,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 37.62,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 37.92,
+      "strength": 0.9254,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 38.04,
+      "strength": 0.9455,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 38.21,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 38.48,
+      "strength": 0.8445,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 38.81,
+      "strength": 0.9212,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 39.09,
+      "strength": 0.7844,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 39.38,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 39.66,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 39.75,
+      "strength": 0.8054,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 39.88,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 40.23,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 40.43,
+      "strength": 0.7812,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 40.57,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 40.72,
+      "strength": 0.8478,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 40.84,
+      "strength": 0.9374,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 41.02,
+      "strength": 0.8688,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 41.16,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 41.43,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 41.74,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 41.88,
+      "strength": 0.8724,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 42.04,
+      "strength": 0.8151,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 42.33,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 42.63,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 42.78,
+      "strength": 0.9222,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 42.92,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 43.22,
+      "strength": 0.9578,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 43.5,
+      "strength": 0.9373,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 43.77,
+      "strength": 0.8261,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 43.96,
+      "strength": 0.8073,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 44.07,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 44.39,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 44.6,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 44.94,
+      "strength": 0.8919,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 45.27,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 45.55,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 45.78,
+      "strength": 0.9467,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 46.17,
+      "strength": 0.8995,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 46.45,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 46.73,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 47.04,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 47.31,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 47.5,
+      "strength": 0.9838,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 47.63,
+      "strength": 0.9517,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 47.9,
+      "strength": 0.9705,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 48.22,
+      "strength": 0.9605,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 48.47,
+      "strength": 0.9384,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 48.79,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 49.1,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 49.39,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 49.65,
+      "strength": 0.9617,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 49.94,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 50.26,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 50.53,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 50.86,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 51.06,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 51.24,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 51.46,
+      "strength": 0.8923,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 51.63,
+      "strength": 0.8262,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 51.74,
+      "strength": 0.9574,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 51.95,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 52.05,
+      "strength": 0.9124,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 52.15,
+      "strength": 0.8881,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 52.33,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 52.62,
+      "strength": 0.9523,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 52.92,
+      "strength": 0.9891,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 53.2,
+      "strength": 0.9091,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 53.49,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 53.8,
+      "strength": 0.8982,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 54.1,
+      "strength": 0.942,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 54.4,
+      "strength": 0.8858,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 54.69,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 54.98,
+      "strength": 0.8936,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 55.25,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 55.53,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 55.8,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 56.12,
+      "strength": 0.9233,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 56.43,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 56.64,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 56.75,
+      "strength": 0.8192,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 56.97,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 57.34,
+      "strength": 0.8495,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 57.63,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 57.88,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 58.16,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 58.46,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 58.8,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 59.01,
+      "strength": 0.9942,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 59.1,
+      "strength": 0.9095,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 59.39,
+      "strength": 0.9144,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 59.68,
+      "strength": 0.9283,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 59.84,
+      "strength": 0.8007,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 59.98,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 60.24,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 60.36,
+      "strength": 0.8339,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 60.55,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 60.85,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 61.16,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 61.44,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 61.68,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 61.96,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 62.33,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 62.62,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 62.91,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 63.22,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 63.51,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 63.77,
+      "strength": 0.9005,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 64.37,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 64.69,
+      "strength": 0.9145,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 64.96,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 65.12,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 65.27,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 65.55,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 65.84,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 66.29,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 66.45,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 67.13,
+      "strength": 0.9935,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 67.31,
+      "strength": 0.9358,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 67.46,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 67.62,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 67.9,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 68.17,
+      "strength": 0.9564,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 68.48,
+      "strength": 0.8356,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 68.77,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 69.39,
+      "strength": 0.9732,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 69.66,
+      "strength": 0.9462,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 69.97,
+      "strength": 0.9348,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 70.27,
+      "strength": 0.8698,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 70.54,
+      "strength": 0.954,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 71.01,
+      "strength": 0.9363,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 71.14,
+      "strength": 0.9432,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 71.29,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 71.73,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 71.9,
+      "strength": 0.9571,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 72.01,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 72.16,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 72.33,
+      "strength": 0.929,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 72.46,
+      "strength": 0.9027,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 72.63,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 72.78,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 73.21,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 73.36,
+      "strength": 0.9749,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 73.49,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 73.78,
+      "strength": 0.9882,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 73.93,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 74.08,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 74.39,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 74.54,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 74.66,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 74.84,
+      "strength": 0.9198,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 74.98,
+      "strength": 0.9057,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 75.13,
+      "strength": 0.9009,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 75.25,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 75.53,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 75.69,
+      "strength": 0.9724,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 75.86,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 76.01,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 76.14,
+      "strength": 0.9802,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 76.29,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 76.44,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 76.6,
+      "strength": 0.8829,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 76.74,
+      "strength": 0.9319,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 76.89,
+      "strength": 0.9207,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 76.98,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 77.34,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 77.45,
+      "strength": 0.9872,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 77.62,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 77.93,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 78.08,
+      "strength": 0.8889,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 78.22,
+      "strength": 0.9855,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 78.52,
+      "strength": 0.9274,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 78.63,
+      "strength": 0.8634,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 78.76,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 79.1,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 79.26,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 79.38,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 79.67,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 79.86,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 79.98,
+      "strength": 0.8793,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 80.28,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 80.43,
+      "strength": 0.9408,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 80.56,
+      "strength": 0.9768,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 80.87,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 81.06,
+      "strength": 0.9135,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 81.39,
+      "strength": 0.9525,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 81.57,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 81.71,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 82.03,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 82.33,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 82.6,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 82.92,
+      "strength": 0.9523,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 83.43,
+      "strength": 0.9572,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 83.95,
+      "strength": 0.8722,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 84.09,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 84.65,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 84.98,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 85.27,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 85.73,
+      "strength": 0.9081,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 85.86,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 86.45,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 87.63,
+      "strength": 0.9906,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 88.8,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 89.96,
+      "strength": 0.9919,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 92.15,
+      "strength": 0.8856,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 92.32,
+      "strength": 0.8787,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 92.49,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 92.9,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 93.07,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 93.35,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 93.51,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 93.65,
+      "strength": 0.943,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 93.81,
+      "strength": 0.978,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 94.06,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 94.65,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 94.94,
+      "strength": 0.9673,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 95.12,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 95.27,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 95.55,
+      "strength": 0.8518,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 95.68,
+      "strength": 0.9355,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 95.84,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 96.02,
+      "strength": 0.9916,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 96.13,
+      "strength": 0.9053,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 96.43,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 97.04,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 97.18,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 97.28,
+      "strength": 0.811,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 97.45,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 97.62,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 97.77,
+      "strength": 0.9467,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 98.05,
+      "strength": 0.892,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 98.18,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 98.51,
+      "strength": 0.9339,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 98.79,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 99.1,
+      "strength": 0.8724,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 99.39,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 99.98,
+      "strength": 0.8597,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 100.29,
+      "strength": 0.8419,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 100.42,
+      "strength": 0.8944,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 100.55,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 100.82,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 101.04,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 101.16,
+      "strength": 0.8399,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 101.45,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 101.72,
+      "strength": 0.8138,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 101.91,
+      "strength": 0.8354,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 102.07,
+      "strength": 0.8053,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 102.2,
+      "strength": 0.9278,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 102.29,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 102.58,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 102.76,
+      "strength": 0.9302,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 102.89,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 103.04,
+      "strength": 0.9313,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 103.19,
+      "strength": 0.9713,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 103.48,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 103.63,
+      "strength": 0.7838,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 103.8,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 103.95,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 104.09,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 104.38,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 104.54,
+      "strength": 0.9069,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 104.69,
+      "strength": 0.9862,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 104.98,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 105.12,
+      "strength": 0.9756,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 105.27,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 105.55,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 105.76,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 106.16,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 106.32,
+      "strength": 0.9821,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 106.43,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 106.7,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 106.91,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 107.04,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 107.33,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 107.57,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 107.76,
+      "strength": 0.9422,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 107.92,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 108.22,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 108.5,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 108.62,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 108.79,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 109.07,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 109.26,
+      "strength": 0.8412,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 109.39,
+      "strength": 0.9456,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 109.65,
+      "strength": 0.9945,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 109.98,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 110.29,
+      "strength": 0.8952,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 110.57,
+      "strength": 0.913,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 110.87,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 111.15,
+      "strength": 0.9705,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 111.45,
+      "strength": 0.8806,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 112.02,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 112.18,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 112.33,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 112.61,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 112.83,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 112.93,
+      "strength": 0.8264,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 113.2,
+      "strength": 0.8247,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 113.5,
+      "strength": 0.993,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 113.83,
+      "strength": 0.6322,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 114.07,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 114.38,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 114.53,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 114.68,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 114.96,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 115.17,
+      "strength": 1.0,
+      "kind": "audio",
+      "section": "audio"
+    },
+    {
+      "time": 115.82,
+      "strength": 0.7484,
+      "kind": "audio",
+      "section": "audio"
+    }
+  ],
+  "analysisAudioSha256": "0671e2cfb234fafc3bd713f69d239867c2627d95aa648011d4d3c64d2fcd16eb"
+}

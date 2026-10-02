@@ -32,11 +32,11 @@ namespace Moonlit {
  public static class SongChartGenerator {
   public const string Version="music-events-v1";
   // BPM is only a tempo reference. Every selected time must exist in the song events.
-  public static float MinimumGap(bool easy,float beat)=>easy?.5f:Mathf.Max(.16f,beat*.5f);
-  public static float Gap(Stroke before,Stroke after,bool easy,float beat) {
-   if(before.phrase!=after.phrase)return easy?1.75f:2*beat;
+  public static float MinimumGap(bool easy,float beat,int difficulty=3)=>easy?.5f:Mathf.Max(.16f,beat*(difficulty>=4?.375f:.5f));
+  public static float Gap(Stroke before,Stroke after,bool easy,float beat,int difficulty=3) {
+   if(before.phrase!=after.phrase)return easy?1.75f:(difficulty>=4?1.5f:2)*beat;
    if(before.syllable!=after.syllable&&easy)return .75f;
-   return MinimumGap(easy,beat);
+   return MinimumGap(easy,beat,difficulty);
   }
   public static List<MusicEvent> Candidates(SongTimeline song) {
    SongTimeline.Validate(song);
@@ -55,12 +55,12 @@ namespace Moonlit {
    float role=e.kind=="melody"?1f:e.kind=="snare"?.7f:e.kind=="tom"?.4f:e.kind=="kick"?.2f:0;
    return e.strength*1.1f+role;
   }
-  public static void Schedule(List<Stroke> strokes,SongTimeline song,bool easy) {
+  public static void Schedule(List<Stroke> strokes,SongTimeline song,bool easy,int difficulty=3) {
    if(strokes.Count==0)throw new InvalidOperationException("The story has no playable keys");
    var events=Candidates(song);int n=strokes.Count,m=events.Count;float beat=60/song.bpm;
    if(m<n)throw new InvalidOperationException("Not enough musical attacks for this text. Shorten the story or use a longer song.");
    float[] cumulative=new float[n];
-   for(int i=1;i<n;i++)cumulative[i]=cumulative[i-1]+Gap(strokes[i-1],strokes[i],easy,beat);
+   for(int i=1;i<n;i++)cumulative[i]=cumulative[i-1]+Gap(strokes[i-1],strokes[i],easy,beat,difficulty);
    float first=events[0].time,last=events[m-1].time,available=last-first;
    if(cumulative[n-1]>available+.001f)throw new InvalidOperationException("Story exceeds the song's typing budget at this difficulty");
    float[] target=new float[n];
@@ -69,7 +69,7 @@ namespace Moonlit {
    for(int j=0;j<m;j++){previous[j]=Cost(events[j],strokes[0],target[0],easy);parent[0,j]=-1;}
    for(int i=1;i<n;i++) {
     var current=new float[m];
-    float minGap=Gap(strokes[i-1],strokes[i],easy,beat);
+    float minGap=Gap(strokes[i-1],strokes[i],easy,beat,difficulty);
     bool phrase=strokes[i-1].phrase!=strokes[i].phrase;
     bool syllable=strokes[i-1].syllable!=strokes[i].syllable;
     bool analyzedAudio=song.source!=null&&song.source.StartsWith("audio-");

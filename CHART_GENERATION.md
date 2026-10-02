@@ -55,6 +55,12 @@ JSON은 `Assets/Resources/Charts/MySong.json`, 음원은 `Assets/Resources/Audio
 
 ## 검증과 재생성
 
+「When the Door Clicks In」은 `ImportStageAudio.ExportDoorClicks`로 원본과 동일한 Unity 재생 타임라인의 PCM을 추출합니다. `analyze_song.py`가 443개 소리 시작 후보를 검출했고, 추정 101.69 BPM은 메타데이터로만 사용합니다. 시작 시각을 격자로 이동시키지 않습니다.
+
+별 4개 곡은 동적 계획법의 최소 키 간격을 `max(0.16초, 0.375박)`, 문구 사이 최소 회복을 1.5박으로 설정합니다. 기존 별 3개 곡의 0.5박/2박과 튜토리얼의 시간 제약은 유지합니다. 이 값은 실제 후보 선택의 하한이며 일정 반복 패턴을 만드는 규칙이 아닙니다. 새 채보는 201키/116초, 평균 1.73키/초로 기존 1.35키/초보다 약 28% 높습니다.
+
+`Tools/arrange_door.py`는 `.local/door-base-chart.json`의 연주 적용 전 Unity 채보와 `.local/DoorClicks-analysis.wav`에서 4개 홀드의 에너지 하강 꼬리, 26개 강조, 66개 엇박 표시를 생성합니다. 홀드 꼬리는 다음 키와 최소 0.36초를 확보합니다. 엇박 표시는 분석 템포와 강한 공격의 추정 위상을 기준으로 붙이며 확정된 박자표/악기 전사를 뜻하지 않습니다. `BuildMoonlit.ExportCharts`는 런타임 연주 지시까지 포함해 내보내므로 기본 채보를 재생성할 때는 DoorClicks 연주 지시를 비운 상태에서 내보내야 합니다. 최종 연주 JSON은 체크인되어 런타임에서 재생성할 필요가 없습니다.
+
 ```text
 python Tools/compose_easy.py
 python Tools/test_audio_analysis.py

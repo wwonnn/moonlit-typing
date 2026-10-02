@@ -1,0 +1,12 @@
+{
+  "assetPath": "Assets/Resources/Audio/DoorClicks.mp3",
+  "audioSha256": "b46a919993c0c75ff66353b44ef66d629aa6127faa3491b13699ee9d81a3c78d",
+  "sampleRate": 44100,
+  "channels": 2,
+  "samples": 5116305,
+  "duration": 116.01598358154297,
+  "peak": 0.952239990234375,
+  "rms": 0.17331868410110474,
+  "title": "When the Door Clicks In",
+  "difficulty": 4
+}

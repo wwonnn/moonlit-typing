@@ -50,11 +50,11 @@ namespace Moonlit {
   }
   AudioClip[] LoadSet(string stem,int count){var set=new AudioClip[count];for(int i=0;i<count;i++){set[i]=Resources.Load<AudioClip>($"Audio/Impacts/{stem}_{i:000}");if(!set[i])Debug.LogError("Missing impact recording: "+stem+i);}return set;}
   void SelectStage(int value){stageIndex=value;chart=new RhythmChart(stageIndex);failed=new bool[chart.syllables.Count];music.clip=Resources.Load<AudioClip>("Audio/"+chart.MusicName);best=PlayerPrefs.GetInt(BestKey,0);ShowMenu();}
-  void ShowMenu(){ClearHold();CancelInvoke(nameof(SaleSpark));music.Stop();mode=Mode.Menu;celebrationPending=false;reactionUntil=0;ui.ResetBook(chart);ui.title.text=chart.stage.title;ui.title.fontSize=30;ui.progressText.text=$"{(easy?"":"약 ")}{chart.BPM:0} BPM · {chart.strokes.Count}번 입력";ui.progress.rectTransform.sizeDelta=new Vector2(0,5);ui.Menu(chart);if(stage.actor)stage.actor.speed=1;stage.Motion("SeatedIdle");}
+  void ShowMenu(){ClearHold();CancelInvoke(nameof(SaleSpark));music.Stop();mode=Mode.Menu;celebrationPending=false;reactionUntil=0;ui.ResetBook(chart);ui.title.text=chart.stage.title;ui.title.fontSize=chart.stageIndex==2?23:30;ui.progressText.text=$"{(easy?"":"약 ")}{chart.BPM:0} BPM · {chart.strokes.Count}번 입력";ui.progress.rectTransform.sizeDelta=new Vector2(0,5);ui.Menu(chart);if(stage.actor)stage.actor.speed=1;stage.Motion("SeatedIdle");}
   public void Begin(bool auto) {
    ClearHold();CancelInvoke(nameof(SaleSpark));music.Stop();demo=auto;cursor=combo=maxCombo=score=perfect=good=miss=0;
    lastBeat=-999;Array.Clear(failed,0,failed.Length);ui.ResetBook(chart);ui.HideModal();
-   ui.combo.text=auto?"자동 연주":"0 연타";ui.scoreText.text="000000";ui.title.text=chart.stage.title+(auto?" · 자동":"");ui.title.fontSize=auto?25:30;
+   ui.combo.text=auto?"자동 연주":"0 연타";ui.scoreText.text="000000";ui.title.text=chart.stage.title+(auto?" · 자동":"");ui.title.fontSize=chart.stageIndex==2?(auto?19:23):auto?25:30;
    ui.SetPhrase(chart,0,0,0);mode=Mode.Playing;startDsp=AudioSettings.dspTime+4*chart.Beat;
    music.PlayScheduled(startDsp);stage.Motion("Writing");if(stage.actor)stage.actor.speed=easy?1:1.18f;
    reactionUntil=0;celebrationPending=false;Debug.Log($"MOONLIT_START easy={easy} demo={auto} stage={chart.stage.id} notes={chart.strokes.Count} chart={SongChartGenerator.Version} source={chart.timeline.source}");

@@ -15,7 +15,7 @@ namespace Moonlit {
   public float Beat=>60f/BPM;
   public float Window=>easy?.24f:Judgement.Window;
   public string MusicName=>stage.musicName;
-  public string Title=>(easy?"튜토리얼 · ":"스테이지 1 · ")+stage.title;
+  public string Title=>(easy?"튜토리얼 · ":$"스테이지 {stageIndex} · ")+stage.title;
   public int Grade(float delta){float d=Mathf.Abs(delta);return d<=(easy?.10f:Judgement.Perfect)?2:d<=(easy?.18f:Judgement.Good)?1:d<=Window?0:-1;}
   public readonly List<Stroke> strokes=new List<Stroke>();
   public readonly List<Syllable> syllables=new List<Syllable>();
@@ -38,7 +38,7 @@ namespace Moonlit {
      sy.lastStroke=strokes.Count-1;strokes[sy.lastStroke].last=true;
     }
    }
-   SongChartGenerator.Schedule(strokes,timeline,easy);NotePerformance.Apply(this);
+   SongChartGenerator.Schedule(strokes,timeline,easy,stage.difficulty);NotePerformance.Apply(this);
   }
   // Adjacent timing windows meet at their midpoint, including uneven rhythms.
   public float EarlyWindow(int index)=>index==0?Window:Mathf.Min(Window,(strokes[index].time-(strokes[index-1].articulation=="hold"?strokes[index-1].endTime:strokes[index-1].time))*.49f);

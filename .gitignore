@@ -33,3 +33,4 @@ __pycache__/
 
 # User-provided music: kept locally and included in the playable game only.
 /Assets/Resources/Audio/ShiningMoment.mp3*
+/Assets/Resources/Audio/DoorClicks.mp3*
