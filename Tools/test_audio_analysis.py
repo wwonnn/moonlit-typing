@@ -3,7 +3,7 @@ import unittest
 import wave
 from pathlib import Path
 import numpy as np
-from analyze_song import detect_attacks, read_pcm
+from analyze_song import detect_attacks, read_pcm, onset_features, estimate_bpm
 
 
 class AudioAnalysisTests(unittest.TestCase):
@@ -40,6 +40,18 @@ class AudioAnalysisTests(unittest.TestCase):
             self.assertEqual(rate, sr)
             self.assertEqual(len(y), sr)
             self.assertTrue(np.allclose(y, .125))
+
+    def test_known_tempo_from_audio(self):
+        sr = 16000
+        y = np.zeros(sr * 20)
+        t = np.arange(round(.10 * sr)) / sr
+        pulse = .5 * np.sin(2 * np.pi * 180 * t) * np.exp(-t * 40)
+        for time in np.arange(.5, 19.5, .5):
+            start = round(time * sr)
+            y[start:start+len(pulse)] += pulse
+        smooth, _, hop = onset_features(y, sr)
+        bpm, _ = estimate_bpm(smooth, hop / sr)
+        self.assertAlmostEqual(bpm, 120, delta=2)
 
 
 if __name__ == '__main__':

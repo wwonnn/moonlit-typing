@@ -1,0 +1,50 @@
+{
+  "song": "ShiningMoment",
+  "source": "audio-spectral-flux-v2",
+  "bpm": 139.53,
+  "duration": 165.57598639455782,
+  "sampleRate": 44100,
+  "audioSha256": "e83792b84488f9cdac039295a9c6c4e8111bd47dbd24e52f17e10769f903cd9f",
+  "analysisAudioSha256": "d8765c3f39d56e41a715e19b586c35acf8e966adeb4884647ee87a432fb7f1f0",
+  "tempoCandidates": [
+    [
+      139.53,
+      0.00164
+    ],
+    [
+      136.36,
+      0.001439
+    ],
+    [
+      142.86,
+      0.001322
+    ],
+    [
+      93.75,
+      0.0013
+    ],
+    [
+      92.31,
+      0.001262
+    ],
+    [
+      90.91,
+      0.001061
+    ],
+    [
+      95.24,
+      0.001007
+    ],
+    [
+      133.33,
+      0.000927
+    ]
+  ],
+  "title": "가장 빛나는 때",
+  "storyTitle": "흥부전",
+  "audioFormat": "Original stereo MP3",
+  "tempoIsEstimate": true,
+  "candidateEvents": 409,
+  "keys": 224,
+  "syllables": 90
+}

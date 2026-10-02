@@ -30,3 +30,6 @@
 # Python music/chart tools
 __pycache__/
 *.py[cod]
+
+# User-provided music: kept locally and included in the playable game only.
+/Assets/Resources/Audio/ShiningMoment.mp3*

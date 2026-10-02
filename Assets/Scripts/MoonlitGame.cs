@@ -9,7 +9,9 @@ namespace Moonlit {
   AudioSource music; AudioSource[] voices;
   AudioClip[] taps, punches, thumps; AudioClip countSound, coinSound;
   int voice, soundIndex, cursor, combo, maxCombo, score, perfect, good, miss, lastBeat=-999, best;
-  bool demo, reduced, easy=true, celebrationPending;
+  bool demo, reduced, celebrationPending;
+  int stageIndex;
+  bool easy=>chart.stage.tutorial;
   bool[] failed;
   float offset, volume=.8f, reactionUntil, pausedTime;
   double startDsp, pauseDsp;
@@ -20,7 +22,7 @@ namespace Moonlit {
   [DllImport("__Internal")] static extern double MoonlitNow();
 #endif
   public float SongTime => mode==Mode.Paused ? pausedTime : (float)(AudioSettings.dspTime-startDsp);
-  string BestKey=>easy?"bestScoreMusicV1Easy":"bestScoreMusicV1Challenge";
+  string BestKey=>easy?"bestScoreMusicV1Easy":"bestScoreStage_"+chart.stage.id;
   public void Start() {
    Application.targetFrameRate=60; QualitySettings.vSyncCount=0;
    Screen.sleepTimeout=SleepTimeout.NeverSleep; Input.imeCompositionMode=IMECompositionMode.Off;
@@ -34,25 +36,25 @@ namespace Moonlit {
    offset=PlayerPrefs.GetFloat("timingOffset",0);volume=PlayerPrefs.GetFloat("volume",.8f);
    reduced=PlayerPrefs.GetInt("reduced",0)==1;AudioListener.volume=volume;ui.Reduced(reduced);
    ui.onStart=()=>Begin(false);ui.onDemo=()=>Begin(true);ui.onRetry=()=>Begin(false);
-   ui.onPause=TogglePause;ui.onResume=Resume;ui.onMenu=ShowMenu;ui.onDifficulty=SelectDifficulty;
+   ui.onPause=TogglePause;ui.onResume=Resume;ui.onMenu=ShowMenu;ui.onStage=SelectStage;
    ui.onOffset=v=>{offset=Mathf.Clamp(offset+v,-.2f,.2f);PlayerPrefs.SetFloat("timingOffset",offset);ui.Pause(offset,volume,reduced);};
    ui.onVolume=v=>{volume=Mathf.Clamp01(volume+v);AudioListener.volume=volume;PlayerPrefs.SetFloat("volume",volume);ui.Pause(offset,volume,reduced);};
    ui.onReduced=v=>{reduced=v;ui.Reduced(v);PlayerPrefs.SetInt("reduced",v?1:0);ui.Pause(offset,volume,reduced);};
-   SelectDifficulty(true);
+   SelectStage(0);
 #if UNITY_WEBGL && !UNITY_EDITOR
    MoonlitInstall(gameObject.name);
 #endif
   }
   AudioClip[] LoadSet(string stem,int count){var set=new AudioClip[count];for(int i=0;i<count;i++){set[i]=Resources.Load<AudioClip>($"Audio/Impacts/{stem}_{i:000}");if(!set[i])Debug.LogError("Missing impact recording: "+stem+i);}return set;}
-  void SelectDifficulty(bool value){easy=value;chart=new RhythmChart(easy);failed=new bool[chart.syllables.Count];music.clip=Resources.Load<AudioClip>("Audio/"+chart.MusicName);best=PlayerPrefs.GetInt(BestKey,0);ShowMenu();}
-  void ShowMenu(){CancelInvoke(nameof(SaleSpark));music.Stop();mode=Mode.Menu;celebrationPending=false;reactionUntil=0;ui.ResetBook(chart);ui.title.text=chart.Title;ui.progressText.text=$"{chart.BPM:0} BPM · {chart.strokes.Count}번 입력";ui.progress.rectTransform.sizeDelta=new Vector2(0,5);ui.Menu(easy);if(stage.actor)stage.actor.speed=1;stage.Motion("SeatedIdle");}
+  void SelectStage(int value){stageIndex=value;chart=new RhythmChart(stageIndex);failed=new bool[chart.syllables.Count];music.clip=Resources.Load<AudioClip>("Audio/"+chart.MusicName);best=PlayerPrefs.GetInt(BestKey,0);ShowMenu();}
+  void ShowMenu(){CancelInvoke(nameof(SaleSpark));music.Stop();mode=Mode.Menu;celebrationPending=false;reactionUntil=0;ui.ResetBook(chart);ui.title.text=chart.stage.title;ui.title.fontSize=30;ui.progressText.text=$"{(easy?"":"약 ")}{chart.BPM:0} BPM · {chart.strokes.Count}번 입력";ui.progress.rectTransform.sizeDelta=new Vector2(0,5);ui.Menu(chart);if(stage.actor)stage.actor.speed=1;stage.Motion("SeatedIdle");}
   public void Begin(bool auto) {
    CancelInvoke(nameof(SaleSpark));music.Stop();demo=auto;cursor=combo=maxCombo=score=perfect=good=miss=0;
    lastBeat=-999;Array.Clear(failed,0,failed.Length);ui.ResetBook(chart);ui.HideModal();
-   ui.combo.text=auto?"자동 연주":"0 연타";ui.scoreText.text="000000";ui.title.text=chart.Title+(auto?" · 자동":"");ui.title.fontSize=auto?26:32;
+   ui.combo.text=auto?"자동 연주":"0 연타";ui.scoreText.text="000000";ui.title.text=chart.stage.title+(auto?" · 자동":"");ui.title.fontSize=auto?25:30;
    ui.SetPhrase(chart,0,0,0);mode=Mode.Playing;startDsp=AudioSettings.dspTime+4*chart.Beat;
    music.PlayScheduled(startDsp);stage.Motion("Writing");if(stage.actor)stage.actor.speed=easy?1:1.18f;
-   reactionUntil=0;celebrationPending=false;Debug.Log($"MOONLIT_START easy={easy} demo={auto} notes={chart.strokes.Count} chart={SongChartGenerator.Version} source={chart.timeline.source}");
+   reactionUntil=0;celebrationPending=false;Debug.Log($"MOONLIT_START easy={easy} demo={auto} stage={chart.stage.id} notes={chart.strokes.Count} chart={SongChartGenerator.Version} source={chart.timeline.source}");
   }
   void Update() {
    if(ui==null)return;if(mode!=Mode.Paused)ui.Tick(Time.unscaledDeltaTime);
@@ -69,7 +71,7 @@ namespace Moonlit {
    else {while(cursor<chart.strokes.Count&&time-offset>chart.strokes[cursor].time+chart.LateWindow(cursor))Resolve(-1);}
    ui.Rhythm(chart,cursor,time-offset);
    ui.progress.rectTransform.sizeDelta=new Vector2(370*Mathf.Clamp01(time/music.clip.length),5);
-   ui.progressText.text=$"{chart.BPM:0} BPM   {Mathf.Max(0,time):00.0} / {music.clip.length:00.0}초";
+   ui.progressText.text=$"{(easy?"":"약 ")}{chart.BPM:0} BPM   {Mathf.Max(0,time):00.0} / {music.clip.length:00.0}초";
    if(celebrationPending&&reactionUntil==0&&(cursor>=chart.strokes.Count||chart.strokes[cursor].time-time>1.35f)){
     celebrationPending=false;stage.Motion("SittingVictory",.18f);reactionUntil=Time.unscaledTime+1.15f;
     ui.Celebrate(combo);Play(thumps[(soundIndex++)%thumps.Length],.75f);
@@ -115,7 +117,7 @@ namespace Moonlit {
   void Resume(){if(mode!=Mode.Paused)return;double elapsed=AudioSettings.dspTime-pauseDsp;startDsp+=elapsed;if(reactionUntil>0)reactionUntil+=(float)elapsed;mode=Mode.Playing;if(pausedTime<0){music.Stop();music.PlayScheduled(startDsp);}else music.UnPause();ui.effects.SetPaused(false);if(stage.actor)stage.actor.speed=easy?1:1.18f;ui.HideModal();}
   public void WebBlur(string unused){if(mode==Mode.Playing)TogglePause();}
   void OnApplicationFocus(bool focus){if(!focus&&mode==Mode.Playing)TogglePause();}
-  void Finish(){mode=Mode.Result;music.Stop();stage.Motion("SittingVictory");if(stage.actor)stage.actor.speed=1;int sales=Judgement.Sales(score,chart.strokes.Count*1000);if(!demo&&score>best){best=score;PlayerPrefs.SetInt(BestKey,best);}PlayerPrefs.Save();Debug.Log($"MOONLIT_RESULT easy={easy} demo={demo} score={score} perfect={perfect} good={good} miss={miss} sales={sales}");ui.Result(score,perfect,good,miss,maxCombo,sales,demo,best);resultCoins=0;InvokeRepeating(nameof(SaleSpark),.1f,.16f);}
+  void Finish(){mode=Mode.Result;music.Stop();stage.Motion("SittingVictory");if(stage.actor)stage.actor.speed=1;int sales=Judgement.Sales(score,chart.strokes.Count*1000);if(!demo&&score>best){best=score;PlayerPrefs.SetInt(BestKey,best);}PlayerPrefs.Save();Debug.Log($"MOONLIT_RESULT easy={easy} demo={demo} score={score} perfect={perfect} good={good} miss={miss} sales={sales}");ui.Result(score,perfect,good,miss,maxCombo,sales,demo,best,chart.stage.storyTitle);resultCoins=0;InvokeRepeating(nameof(SaleSpark),.1f,.16f);}
   void SaleSpark(){if(mode!=Mode.Result||resultCoins++>16){CancelInvoke(nameof(SaleSpark));return;}Play(coinSound,.3f);ui.Burst(new Vector2(UnityEngine.Random.Range(460,1100),350),ui.gold,reduced?3:12,130);}
  }
 }

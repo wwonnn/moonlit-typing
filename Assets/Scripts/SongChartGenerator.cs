@@ -72,7 +72,8 @@ namespace Moonlit {
     float minGap=Gap(strokes[i-1],strokes[i],easy,beat);
     bool phrase=strokes[i-1].phrase!=strokes[i].phrase;
     bool syllable=strokes[i-1].syllable!=strokes[i].syllable;
-    float maxGap=phrase?(easy?8:4):syllable?(easy?4.5f:2):easy?2.5f:1.25f;
+    bool analyzedAudio=song.source!=null&&song.source.StartsWith("audio-");
+    float maxGap=phrase?(easy?8:analyzedAudio?10:4):syllable?(easy?4.5f:analyzedAudio?4:2):easy||analyzedAudio?2.5f:1.25f;
     for(int j=0;j<m;j++) {
      float best=float.PositiveInfinity;int bestIndex=-1;
      for(int k=j-1;k>=0;k--) {

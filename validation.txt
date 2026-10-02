@@ -1,6 +1,6 @@
 Unity 6000.0.74f1
-달빛 잔치 · 쉬움: 120 BPM, 67 keys, 28 syllables, last 71.000s / song 74.000s
-달빛 인쇄소 · 도전: 144 BPM, 301 keys, 122 syllables, last 80.625s / song 83.667s
+튜토리얼 · 달빛 잔치: 120 BPM, 67 keys, 28 syllables, last 71.000s / song 74.000s
+스테이지 1 · 가장 빛나는 때: 139.53 BPM, 224 keys, 90 syllables, last 162.450s / song 165.576s
 Music-driven chart: easy 10 gap lengths, 25 offbeat keys; exact audio hashes and same-BPM mutation: PASS
 Cartoon FX: 3 official particle prefabs; materials resolved; no stage shake/light scripts: PASS
 Hangul groups, both songs, easy rests and spacing, judgement windows, sales, Humanoid, impact imports: PASS
